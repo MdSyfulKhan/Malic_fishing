@@ -446,6 +446,9 @@ a:hover {
     -webkit-transform: scale(1.07);
             transform: scale(1.07); }
 
+.st-margin-b30 {
+  margin-bottom: 30px; }
+
 .st-main-header-top {
   height: 50px;
   background-color: #2c2c2c;
@@ -526,54 +529,17 @@ a:hover {
 
 .st-about {
   background-color: #fdfcf9; }
-  .st-about .st-about-text .st-section-title {
-    color: #13788A;
-    font-weight: 500;
-    font-size: 16px;
-    position: relative;
-    display: inline; }
-    .st-about .st-about-text .st-section-title::after {
-      content: "";
-      left: 0;
-      bottom: -15px;
-      position: absolute;
-      height: 2px;
-      width: 100%;
-      background-color: #13788A; }
-  .st-about .st-about-text .st-section-heading {
-    font-weight: 700;
-    font-size: 44px;
-    color: #333333;
-    margin-top: 25px;
-    margin-bottom: 15px; }
-  .st-about .st-about-text .st-heading-pargraph {
-    margin-bottom: 30px; }
-  .st-about .st-about-text .st-section-sub-heading {
-    font-weight: 700;
-    font-size: 18px;
-    margin: 18px 0px 20px 0px; }
-  .st-about .st-about-text .st-sub-heading-paragraph {
-    margin-bottom: 20px; }
-  .st-about .st-about-text .st-readmore-btn {
-    color: #13788A;
-    text-decoration: none;
-    font-weight: 500;
-    -webkit-transition: 0.3s;
-    transition: 0.3s; }
-    .st-about .st-about-text .st-readmore-btn:hover {
-      margin-left: 3px; }
-    .st-about .st-about-text .st-readmore-btn i {
-      margin-left: 3px; }
   .st-about .st-about-profile {
-    height: 65px; }
+    margin-top: 40px;
+    height: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
     .st-about .st-about-profile .st-about-profile-left {
-      height: 100%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
+      height: 100%; }
       .st-about .st-about-profile .st-about-profile-left img {
         height: 65px;
         width: 65px;
@@ -592,14 +558,61 @@ a:hover {
     .st-about .st-about-profile .st-about-profile-middle {
       height: 80%;
       width: 1px;
-      background-color: #3ea9b7; }
+      background-color: #3ea9b7;
+      display: inline-block;
+      margin: 0 20px; }
     .st-about .st-about-profile .st-about-profile-right {
-      height: 100%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
+      font-size: 36px; }
+
+.st-service-text .btn {
+  border: 1px solid #13788A;
+  padding: 10px 15px; }
+
+.btn {
+  padding: 15px 30px; }
+
+.st-readmore-btn {
+  color: #13788A;
+  text-decoration: none;
+  font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .st-readmore-btn:hover {
+    margin-left: 3px; }
+  .st-readmore-btn i {
+    margin-left: 3px; }
+
+.st-section-title {
+  color: #13788A;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  display: inline; }
+  .st-section-title::after {
+    content: "";
+    left: 0;
+    bottom: -15px;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #13788A; }
+
+.st-section-heading {
+  font-weight: 700;
+  font-size: 44px;
+  color: #333333;
+  margin-top: 25px;
+  margin-bottom: 15px; }
+
+.st-heading-paragraph {
+  margin-bottom: 30px; }
+
+.st-section-sub-heading {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 18px 0px 20px 0px; }
+
+.st-sub-heading-paragraph {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */

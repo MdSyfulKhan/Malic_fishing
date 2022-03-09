@@ -1,60 +1,13 @@
 .st-about {
   background-color: $wash_me;
-  .st-about-text {
-    .st-section-title {
-      color: $alpine_landing;
-      font-weight: 500;
-      font-size: 16px;
-      position: relative;
-      display: inline;
-      &::after {
-        content: "";
-        left: 0;
-        bottom: -15px;
-        position: absolute;
-        height: 2px;
-        width: 100%;
-        background-color: $alpine_landing;
-      }
-    }
-    .st-section-heading {
-      font-weight: 700;
-      font-size: 44px;
-      color: $carbon;
-      margin-top: 25px;
-      margin-bottom: 15px;
-    }
-    .st-heading-pargraph {
-      margin-bottom: 30px;
-    }
-    .st-section-sub-heading {
-      font-weight: 700;
-      font-size: 18px;
-      margin: 18px 0px 20px 0px;
-    }
-    .st-sub-heading-paragraph {
-      margin-bottom: 20px;
-    }
-    .st-readmore-btn {
-      color: $alpine_landing;
-      text-decoration: none;
-      font-weight: 500;
-      transition: 0.3s;
-      &:hover {
-        margin-left: 3px;
-      }
-      i {
-        margin-left: 3px;
-      }
-    }
-  }
+  
   .st-about-profile {
+    margin-top: 40px;
     height: 65px;
-    
+    display: flex;
+    align-items: center;
     .st-about-profile-left {
       height: 100%;
-      display: flex;
-      align-items: center;
       img {
         height: 65px;
         width: 65px;
@@ -79,11 +32,11 @@
       height: 80%;
       width: 1px;
       background-color: $aquatic_cool;
+      display: inline-block;
+      margin: 0 20px;
     }
     .st-about-profile-right {
-      height: 100%;
-      display: flex;
-      align-items: center;
+      font-size: 36px;
     }
   }
 }

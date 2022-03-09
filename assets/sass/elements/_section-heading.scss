@@ -1,0 +1,34 @@
+.st-section-title {
+  color: $alpine_landing;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  display: inline;
+  &::after {
+    content: "";
+    left: 0;
+    bottom: -15px;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: $alpine_landing;
+  }
+}
+.st-section-heading {
+  font-weight: 700;
+  font-size: 44px;
+  color: $carbon;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.st-heading-paragraph {
+  margin-bottom: 30px;
+}
+.st-section-sub-heading {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 18px 0px 20px 0px;
+}
+.st-sub-heading-paragraph {
+  margin-bottom: 20px;
+}
