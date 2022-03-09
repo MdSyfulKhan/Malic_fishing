@@ -455,11 +455,13 @@ a:hover {
     margin-right: 25px; }
     .st-main-header-top .st-main-header-left > div i {
       margin-right: 5px; }
+  .st-main-header-top .st-main-header-right .line {
+    height: 30px;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 20px; }
   .st-main-header-top .st-main-header-right a {
-    text-decoration: none;
-    margin-left: 30px; }
-    .st-main-header-top .st-main-header-right a :first-child {
-      margin: 0; }
+    text-decoration: none; }
 
 .st-main-header-bottom {
   height: 80px; }
@@ -521,5 +523,83 @@ a:hover {
   .st-single-brand img {
     height: initial;
     width: initial; }
+
+.st-about {
+  background-color: #fdfcf9; }
+  .st-about .st-about-text .st-section-title {
+    color: #13788A;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    display: inline; }
+    .st-about .st-about-text .st-section-title::after {
+      content: "";
+      left: 0;
+      bottom: -15px;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background-color: #13788A; }
+  .st-about .st-about-text .st-section-heading {
+    font-weight: 700;
+    font-size: 44px;
+    color: #333333;
+    margin-top: 25px;
+    margin-bottom: 15px; }
+  .st-about .st-about-text .st-heading-pargraph {
+    margin-bottom: 30px; }
+  .st-about .st-about-text .st-section-sub-heading {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 18px 0px 20px 0px; }
+  .st-about .st-about-text .st-sub-heading-paragraph {
+    margin-bottom: 20px; }
+  .st-about .st-about-text .st-readmore-btn {
+    color: #13788A;
+    text-decoration: none;
+    font-weight: 500;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .st-about .st-about-text .st-readmore-btn:hover {
+      margin-left: 3px; }
+    .st-about .st-about-text .st-readmore-btn i {
+      margin-left: 3px; }
+  .st-about .st-about-profile {
+    height: 65px; }
+    .st-about .st-about-profile .st-about-profile-left {
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .st-about .st-about-profile .st-about-profile-left img {
+        height: 65px;
+        width: 65px;
+        border-radius: 50%; }
+      .st-about .st-about-profile .st-about-profile-left .st-about-profile-text {
+        margin-left: 25px; }
+        .st-about .st-about-profile .st-about-profile-left .st-about-profile-text .st-about-profile-name {
+          font-size: 18px;
+          font-weight: 500;
+          color: #333333; }
+        .st-about .st-about-profile .st-about-profile-left .st-about-profile-text .st-about-profile-title {
+          font-size: 16px;
+          color: #777777;
+          text-transform: uppercase;
+          line-height: 150%; }
+    .st-about .st-about-profile .st-about-profile-middle {
+      height: 80%;
+      width: 1px;
+      background-color: #3ea9b7; }
+    .st-about .st-about-profile .st-about-profile-right {
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
 
 /*# sourceMappingURL=style.css.map */

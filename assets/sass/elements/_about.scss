@@ -1,1 +1,89 @@
-.
+.st-about {
+  background-color: $wash_me;
+  .st-about-text {
+    .st-section-title {
+      color: $alpine_landing;
+      font-weight: 500;
+      font-size: 16px;
+      position: relative;
+      display: inline;
+      &::after {
+        content: "";
+        left: 0;
+        bottom: -15px;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background-color: $alpine_landing;
+      }
+    }
+    .st-section-heading {
+      font-weight: 700;
+      font-size: 44px;
+      color: $carbon;
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+    .st-heading-pargraph {
+      margin-bottom: 30px;
+    }
+    .st-section-sub-heading {
+      font-weight: 700;
+      font-size: 18px;
+      margin: 18px 0px 20px 0px;
+    }
+    .st-sub-heading-paragraph {
+      margin-bottom: 20px;
+    }
+    .st-readmore-btn {
+      color: $alpine_landing;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+      &:hover {
+        margin-left: 3px;
+      }
+      i {
+        margin-left: 3px;
+      }
+    }
+  }
+  .st-about-profile {
+    height: 65px;
+    
+    .st-about-profile-left {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      img {
+        height: 65px;
+        width: 65px;
+        border-radius: 50%;
+      }
+      .st-about-profile-text {
+        margin-left: 25px;
+        .st-about-profile-name {
+          font-size: 18px;
+          font-weight: 500;
+          color: $carbon;
+        }
+        .st-about-profile-title {
+          font-size: 16px;
+          color: $steel_wool;
+          text-transform: uppercase;
+          line-height: 150%;
+        }
+      }
+    }
+    .st-about-profile-middle {
+      height: 80%;
+      width: 1px;
+      background-color: $aquatic_cool;
+    }
+    .st-about-profile-right {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
