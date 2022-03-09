@@ -1,0 +1,58 @@
+
+.st-main-header-top{
+  height: 50px;
+  background-color: #2c2c2c;
+  overflow: hidden;
+  color: $white;
+  .st-main-header-left > div{
+    margin-right: 25px;
+    i{
+      margin-right: 5px;
+    }
+  }
+  .st-main-header-right{
+    a{
+      text-decoration: none;
+      margin-left: 30px;
+      :first-child{
+        margin: 0;
+      }
+    }
+  }
+}
+.st-main-header-bottom{
+  height: 80px;
+  .st-nav-list{
+    list-style: none;
+  }
+  li{
+    margin-left: 20px;
+    a{
+      text-decoration: none;
+    }
+  }
+  .st-search-bar{
+    width: 200px;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+    input{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .st-search-bar{
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 40px;
+      width: 40px;
+      background-color: aquamarine;
+      z-index: 3;
+    }
+  }
+}

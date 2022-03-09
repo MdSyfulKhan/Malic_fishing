@@ -1,0 +1,151 @@
+/**
+ Theme Name: Abid
+ Author: Themewatch
+ Version: 1.0.0
+ */
+
+/*--------------------------------------------------------------
+>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Typography
+2. Spacing
+3. General Style
+4. Header
+5. Hero
+6. Iconbox
+7. About
+8. Counter
+9. Services
+10. CTA
+11. Testimonial
+12. Products
+13. offer
+14. Blog
+15. Blog Details
+16. Comments
+17. Brands
+18. Scroll To Top
+19. Isotope
+20. Service Details
+21. Contact Us
+22. Login/Register
+23. Checkout
+24. Shopping Cart
+25. Footer
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1. Typography
+----------------------------------------------------------------*/
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+// Custom font
+@font-face {
+  font-family: 'Circular';
+  src: url('../fonts/circular-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+html {
+  color: $secondary;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6em;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h3,
+h6 {
+  clear: both;
+  color: $primary;
+  font-family: 'Circular', sans-serif;
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+ul {
+  margin: 0 0 15px 0;
+  padding-left: 15px;
+}
+
+ol {
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0 15px;
+}
+
+address {
+  margin: 0 0 15px;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 991px) {
+  body,
+  html {
+    font-size: 14px;
+  }
+}
