@@ -466,29 +466,33 @@ a:hover {
   .st-main-header-bottom .st-nav-list {
     list-style: none; }
   .st-main-header-bottom li {
-    margin-left: 20px; }
+    margin-left: 20px;
+    font-weight: 500;
+    position: relative; }
+    .st-main-header-bottom li :hover {
+      color: #13788A; }
     .st-main-header-bottom li a {
       text-decoration: none; }
   .st-main-header-bottom .st-search-bar {
     width: 200px;
-    position: relative;
+    border: 2px solid #13788A;
     border-radius: 50px;
-    overflow: hidden; }
-    .st-main-header-bottom .st-search-bar input {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0; }
-    .st-main-header-bottom .st-search-bar .st-search-bar {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 40px;
-      width: 40px;
-      background-color: aquamarine;
-      z-index: 3; }
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+    position: relative; }
+    .st-main-header-bottom .st-search-bar .st-input-field {
+      width: 150px;
+      border: 0;
+      outline: none;
+      padding: 5px 10px; }
+    .st-main-header-bottom .st-search-bar .st-search-btn {
+      background-color: #13788A;
+      color: #fff;
+      height: 100%;
+      width: 50px;
+      cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

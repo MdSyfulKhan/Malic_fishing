@@ -27,32 +27,36 @@
   }
   li{
     margin-left: 20px;
+    font-weight: 500;
+    position: relative;
+    :hover{
+      color: $alpine_landing;
+    }
     a{
       text-decoration: none;
     }
+    
   }
   .st-search-bar{
     width: 200px;
-    position: relative;
+    border: 2px solid $alpine_landing;
     border-radius: 50px;
     overflow: hidden;
-    input{
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
+    display: flex;
+    height: 40px;
+    position: relative;
+    .st-input-field{
+      width: 150px;
+      border: 0;
+      outline: none;
+      padding: 5px 10px;
     }
-    .st-search-bar{
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 40px;
-      width: 40px;
-      background-color: aquamarine;
-      z-index: 3;
+    .st-search-btn{
+      background-color: $alpine_landing;
+      color: $white;
+      height: 100%;
+      width: 50px;
+      cursor: pointer;
     }
   }
 }
