@@ -1,8 +1,14 @@
-.st-brand-logo{
+.st-single-brand{
   border: 1px solid $meta;
   display: block;
-  padding: 10px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
+  height: 120px;
+  cursor: pointer;
+  padding: 15px;
+  img{
+    height: initial;
+    width: initial;
+  }
 }

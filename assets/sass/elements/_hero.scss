@@ -3,23 +3,11 @@
   .st-single-slider{
     height: 800px;
     width: 100%;
-    display: flex;
-    align-items: center;
     position: relative;
-    >img{
+    .st-hero-overlay{
       position: absolute;
-      height: 100px;
+      height: 100%;
       width: 100%;
     }
-    .st-slider-text{
-      position: absolute;
-      top: 0;
-    }
-  }
-  .st-slider-heading{
-
-  }
-  .st-slider-sub-heading{
-
   }
 }
