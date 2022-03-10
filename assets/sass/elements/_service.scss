@@ -4,3 +4,22 @@
     padding: 10px 15px;
   }
 }
+.st-single-service{
+  padding: 30px;
+  background-color: $wash_me;
+  transition: 0.4s;
+  &:hover{
+    background-color: $alpine_landing;
+    color: $white;
+    svg{
+      fill: $white;
+    }
+    .st-readmore-btn{
+      color: $white;
+    }
+  }
+  svg{
+    fill: $alpine_landing;
+    margin-bottom: 25px;
+  }
+}

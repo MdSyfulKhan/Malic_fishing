@@ -4,21 +4,18 @@
   font-size: 16px;
   position: relative;
   display: inline;
-  &::after {
-    content: "";
-    left: 0;
-    bottom: -15px;
+  padding-bottom: 15px;
+  svg {
     position: absolute;
-    height: 2px;
-    width: 100%;
-    background-color: $alpine_landing;
+    bottom: 0;
+    left: 0;
+    fill: currentColor;
   }
 }
 .st-section-heading {
   font-weight: 700;
   font-size: 44px;
   color: $carbon;
-  margin-top: 25px;
   margin-bottom: 15px;
 }
 .st-heading-paragraph {
@@ -27,7 +24,7 @@
 .st-section-sub-heading {
   font-weight: 700;
   font-size: 18px;
-  margin: 18px 0px 20px 0px;
+  margin-bottom: 18px;
 }
 .st-sub-heading-paragraph {
   margin-bottom: 20px;
