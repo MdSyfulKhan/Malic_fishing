@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 2. Spacing
 ----------------------------------------------------------------*/
+svg{
+  color: #13788A
+}
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 @media screen and (min-width: 992px) {
   .st-height-b0 {
@@ -587,6 +590,49 @@ a:hover {
     .st-about .st-about-profile .st-about-profile-right {
       font-size: 36px; }
 
+.st-grid-container .st-gallery-in {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr; }
+  .st-grid-container .st-gallery-in .st-single-gallery {
+    position: relative;
+    height: 465px;
+    overflow: hidden;
+    cursor: pointer; }
+    .st-grid-container .st-gallery-in .st-single-gallery img {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; }
+    .st-grid-container .st-gallery-in .st-single-gallery:hover .st-gallery-text {
+      top: 50%;
+      opacity: 1; }
+    .st-grid-container .st-gallery-in .st-single-gallery .st-gallery-text {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      background-color: #3ea9b7;
+      width: 285px;
+      padding: 30px;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      text-align: center;
+      opacity: 0; }
+      .st-grid-container .st-gallery-in .st-single-gallery .st-gallery-text .st-gallery-heading {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 150%;
+        color: #fff; }
+      .st-grid-container .st-gallery-in .st-single-gallery .st-gallery-text .st-gallery-heading-paragraph {
+        margin: 0;
+        word-wrap: normal;
+        color: #fff; }
+
 .st-service-text .btn {
   border: 1px solid #13788A;
   padding: 10px 15px; }
@@ -650,4 +696,5 @@ a:hover {
 
 .st-sub-heading-paragraph {
   margin-bottom: 20px; }
+
 /*# sourceMappingURL=style.css.map */
