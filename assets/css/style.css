@@ -679,24 +679,30 @@ a:hover {
       position: relative;
       height: 60px;
       width: 600px;
-      background-color: #fff; }
+      background-color: #fff;
+      border-radius: 5px;
+      overflow: hidden; }
       .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-input-group .st-newsletter-input-field {
         position: absolute;
         top: 0;
-        right: 0;
         left: 0;
-        bottom: 0;
         padding: 20px 24px;
         outline: none;
         height: 100%;
         width: 100%;
         display: block;
-        background-color: green; }
+        background-color: #fff;
+        border: 0; }
       .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-input-group .st-btn-bg {
-        background-color: #13788A;
-        padding: 10px 15px;
-        color: #fff;
-        outline: none; }
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%); }
+    .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-heading {
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff; }
 
 .btn {
   padding: 15px 30px; }
@@ -712,7 +718,7 @@ a:hover {
   .st-readmore-btn i {
     margin-left: 3px; }
 
-.st-moredetails-btn {
+.st-btn-bg {
   color: #fff;
   background-color: #13788A;
   padding: 10px 30px;
@@ -721,7 +727,7 @@ a:hover {
   font-weight: 500;
   border-radius: 5px;
   text-decoration: none; }
-  .st-moredetails-btn:hover {
+  .st-btn-bg:hover {
     border: 2px solid #13788A;
     background-color: transparent; }
 

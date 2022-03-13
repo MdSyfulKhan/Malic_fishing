@@ -26,25 +26,31 @@
         height: 60px;
         width: 600px;
         background-color: $white;
+        border-radius: 5px;
+        overflow: hidden;
         .st-newsletter-input-field{
           position: absolute;
           top: 0;
-          right: 0;
           left: 0;
-          bottom: 0;
           padding: 20px 24px;
           outline: none;
           height: 100%;
           width: 100%;
           display: block;
-          background-color: green;
+          background-color: $white;
+          border: 0;
         }
         .st-btn-bg{
-          background-color: $alpine_landing;
-          padding: 10px 15px;
-          color: $white;
-          outline: none;
+          position: absolute;
+          top: 50%;
+          right: 5px;
+          transform: translateY(-50%);
         }
+      }
+      .st-newsletter-heading{
+        font-size: 22px;
+        font-weight: 700;
+        color: $white;
       }
     }
   }
