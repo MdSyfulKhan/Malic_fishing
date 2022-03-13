@@ -1,0 +1,51 @@
+.st-newsletter{
+  background-color: $alpine_landing;
+  .st-newsletter-content{
+    height: 125px;
+    .st-newsletter-left{
+      color: $white;
+      .st-newsletter-question{
+        font-size: 20px;
+        line-height: 43px;
+      }
+      .st-newsletter-number{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 43px;
+      }
+    }
+    .st-newsletter-middle{
+      height: 100%;
+      width: 1px;
+      background-color: $blue_moon;
+      margin: 0 70px;
+    }
+    .st-newsletter-right{
+      .st-newsletter-input-group{
+        position: relative;
+        height: 60px;
+        width: 600px;
+        background-color: $white;
+        .st-newsletter-input-field{
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0;
+          padding: 20px 24px;
+          outline: none;
+          height: 100%;
+          width: 100%;
+          display: block;
+          background-color: green;
+        }
+        .st-btn-bg{
+          background-color: $alpine_landing;
+          padding: 10px 15px;
+          color: $white;
+          outline: none;
+        }
+      }
+    }
+  }
+}

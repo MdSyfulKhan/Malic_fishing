@@ -13,3 +13,17 @@
     margin-left: 3px;
   }
 }
+.st-moredetails-btn{
+  color: $white;
+  background-color: $alpine_landing;
+  padding: 10px 30px;
+  border: 2px solid transparent;
+  display: inline-block;
+  font-weight: 500;
+  border-radius: 5px;
+  text-decoration: none;
+  &:hover{
+    border: 2px solid $alpine_landing;
+    background-color: transparent;
+  }
+}
