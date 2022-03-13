@@ -704,6 +704,9 @@ a:hover {
       font-weight: 700;
       color: #fff; }
 
+.st-footer {
+  background-color: #000; }
+
 .btn {
   padding: 15px 30px; }
 
