@@ -705,7 +705,56 @@ a:hover {
       color: #fff; }
 
 .st-footer {
+  color: #fff;
   background-color: #000; }
+  .st-footer .st-brand {
+    margin-bottom: 25px; }
+  .st-footer .st-footer-text {
+    color: #fff;
+    margin-bottom: 25px; }
+  .st-footer .st-footer-social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .st-footer .st-footer-social-links .st-single-social-btn {
+      color: #fff;
+      display: inline-block;
+      margin-right: 25px; }
+      .st-footer .st-footer-social-links .st-single-social-btn a {
+        font-size: 20px; }
+  .st-footer .st-section-sub-heading {
+    color: #fff;
+    margin-bottom: 40px; }
+  .st-footer .st-footer-contact-list {
+    margin: 0;
+    padding: 0; }
+    .st-footer .st-footer-contact-list .st-contact-item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 20px; }
+      .st-footer .st-footer-contact-list .st-contact-item i {
+        color: #13788A;
+        margin-right: 20px; }
+  .st-footer .st-grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px; }
+  .st-footer .st-footer-bottom {
+    background-color: #111;
+    height: 70px; }
+    .st-footer .st-footer-bottom .st-card-items {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .st-footer .st-footer-bottom .st-card-items .st-single-card-item {
+        display: inline-block;
+        margin-left: 5px;
+        height: 25px;
+        width: 35px;
+        background-color: #fff;
+        padding: 5px; }
 
 .btn {
   padding: 15px 30px; }

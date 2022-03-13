@@ -1,3 +1,64 @@
 .st-footer{
+  color: $white;
   background-color: $black;
+  .st-brand{
+    margin-bottom: 25px;
+  }
+  .st-footer-text{
+    color: $white;
+    margin-bottom: 25px;
+  }
+  .st-footer-social-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    .st-single-social-btn{
+      color: $white;
+      display: inline-block;
+      margin-right: 25px;
+      a{
+        font-size: 20px;
+      }
+    }
+  }
+  .st-section-sub-heading{
+    color: $white;
+    margin-bottom: 40px;
+  }
+
+  .st-footer-contact-list{
+    margin: 0;
+    padding: 0;
+    .st-contact-item{
+      display: flex;
+      margin-bottom: 20px;
+      i{
+        color: $alpine_landing;
+        margin-right: 20px;
+      }
+    }
+  }
+  .st-grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .st-footer-bottom{
+    background-color: $primary;
+    height: 70px;
+    .st-card-items{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      .st-single-card-item{
+        display: inline-block;
+        margin-left: 5px;
+        height: 25px;
+        width: 35px;
+        background-color: $white;
+        padding: 5px;
+      }
+    }
+  }
 }
