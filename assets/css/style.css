@@ -375,6 +375,7 @@ img {
 a {
   color: inherit;
   -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
 a:hover {
@@ -397,54 +398,32 @@ a:hover {
   border-radius: 10px; }
 
 .st-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 .st-flex-v-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
 
 .st-flex-h-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 
 .st-flex-s-between {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .st-flex-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  align-items: center;
+  justify-content: center; }
 
 .st-zoom {
   position: relative;
   overflow: hidden; }
   .st-zoom .st-zoom-in {
-    -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out; }
   .st-zoom:hover .st-zoom-in {
-    -webkit-transform: scale(1.07);
-            transform: scale(1.07); }
+    transform: scale(1.07); }
 
 .st-margin-b30 {
   margin-bottom: 25px; }
@@ -490,8 +469,6 @@ a:hover {
     border: 2px solid #13788A;
     border-radius: 50px;
     overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 40px;
     position: relative; }
@@ -538,12 +515,8 @@ a:hover {
   border: 1px solid #b5b5b5;
   display: block;
   border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   height: 120px;
   cursor: pointer;
   padding: 15px; }
@@ -558,12 +531,8 @@ a:hover {
   .st-about .st-about-profile {
     margin-top: 40px;
     height: 65px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    align-items: center; }
     .st-about .st-about-profile .st-about-profile-left {
       height: 100%; }
       .st-about .st-about-profile .st-about-profile-left img {
@@ -614,12 +583,10 @@ a:hover {
       position: absolute;
       top: 100%;
       left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
       background-color: #3ea9b7;
       width: 285px;
       padding: 30px;
-      -webkit-transition: 0.3s;
       transition: 0.3s;
       text-align: center;
       opacity: 0; }
@@ -640,7 +607,6 @@ a:hover {
 .st-single-service {
   padding: 30px;
   background-color: #f9fcfd;
-  -webkit-transition: 0.4s;
   transition: 0.4s; }
   .st-single-service:hover {
     background-color: #13788A;
@@ -697,8 +663,7 @@ a:hover {
         position: absolute;
         top: 50%;
         right: 5px;
-        -webkit-transform: translateY(-50%);
-                transform: translateY(-50%); }
+        transform: translateY(-50%); }
     .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-heading {
       font-size: 22px;
       font-weight: 700;
@@ -729,8 +694,6 @@ a:hover {
     margin: 0;
     padding: 0; }
     .st-footer .st-footer-contact-list .st-contact-item {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       margin-bottom: 20px; }
       .st-footer .st-footer-contact-list .st-contact-item i {
@@ -763,7 +726,6 @@ a:hover {
   color: #13788A;
   text-decoration: none;
   font-weight: 500;
-  -webkit-transition: 0.3s;
   transition: 0.3s; }
   .st-readmore-btn:hover {
     margin-left: 3px; }
