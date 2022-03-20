@@ -672,11 +672,14 @@ a:hover {
     .st-product .st-category-items li.active {
       color: #13788A;
       border-bottom: 2px solid #13788A; }
+.st-product .st-single-product:hover .st-product-top .st-product-btn-group {
+  opacity: 1; }
 .st-product .st-single-product .st-product-top {
   position: relative;
   width: 100%;
   height: 300px;
-  background-color: lightgray; }
+  margin-bottom: 20px;
+  background-color: #f9fcfd; }
   .st-product .st-single-product .st-product-top .st-product-img {
     height: 150px;
     width: 150px;
@@ -687,17 +690,19 @@ a:hover {
   .st-product .st-single-product .st-product-top .st-product-btn-group {
     position: absolute;
     left: 50%;
-    top: 90%;
-    transform: translate(-50%, -90%);
+    bottom: 30px;
+    transform: translateX(-50%);
     z-index: 5;
     list-style: none;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    opacity: 0;
+    transition: 0.3s; }
     .st-product .st-single-product .st-product-top .st-product-btn-group li {
       border: 1px solid #13788A;
       height: 35px;
       width: 35px;
-      border-radius: 5px;
+      border-radius: 3px;
       margin-right: 5px;
       background-color: #fff;
       line-height: 0;
@@ -707,14 +712,24 @@ a:hover {
         width: 150px;
         overflow: hidden; }
         .st-product .st-single-product .st-product-top .st-product-btn-group li:nth-child(2) .fa-cart-shopping {
-          height: 35px;
-          width: 35px;
           background-color: #13788A;
-          display: block;
+          display: inline-block;
           color: #fff;
+          padding: 10px;
           margin-right: 10px; }
       .st-product .st-single-product .st-product-top .st-product-btn-group li:last-child {
         margin: 0; }
+.st-product .st-single-product .st-product-bottom .st-product-name {
+  margin-bottom: 5px; }
+.st-product .st-single-product .st-product-bottom .st-product-price {
+  color: #13788A;
+  font-weight: 500;
+  margin-bottom: 5px; }
+.st-product .st-single-product .st-product-bottom .st-product-rating {
+  color: #ffb800; }
+
+.st-testmonial {
+  background-color: #f9fcfd; }
 
 .st-blog {
   background: #f9fcfd; }
