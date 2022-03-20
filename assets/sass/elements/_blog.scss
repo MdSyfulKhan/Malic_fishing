@@ -1,0 +1,70 @@
+.st-blog {
+  background: #f9fcfd;
+  .st-section-title {
+    svg {
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+    }
+  }
+  .st-single-blog {
+    &:hover{
+      .st-blog-title{
+        color: $alpine_landing;
+      }
+    }
+    .st-blog-top-content {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .st-blog-post-date {
+        color: $white;
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        background-color: $alpine_landing;
+        i {
+          margin-right: 3px;
+        }
+      }
+    }
+    .st-blog-bottom-content {
+      background-color: $white;
+      padding: 30px;
+      .st-blog-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+        line-height: 27px;
+        transition: 0.3s;
+        text-decoration: none;
+      }
+      .st-blog-text {
+        margin: 10px;
+        .st-blog-post-user,
+        .st-blog-comments {
+          margin-right: 30px;
+          color: $steel_wool;
+          i {
+            color: $alpine_landing;
+            margin-right: 5px;
+            display: block;
+          }
+        }
+        .st-blog-comments {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

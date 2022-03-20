@@ -486,30 +486,38 @@ a:hover {
 
 .st-single-slider {
   height: 800px;
-  background-color: #f9fcfd; }
-  .st-single-slider .st-hero-overlay .st-hero-bg {
+  width: 100%;
+  position: relative; }
+  .st-single-slider .st-hero-overlay {
+    position: absolute;
     height: 100%;
-    background-image: url("../img/BG.png");
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .st-single-slider .st-slider-content {
+    height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
-  .st-single-slider .st-hero-text h1 {
-    font-size: 60px;
-    font-weight: 800;
-    margin-bottom: 25px; }
-  .st-single-slider .st-hero-text h2 {
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 35px; }
-  .st-single-slider .st-hero-text .st-btn {
-    color: #333333;
-    text-decoration: none;
-    background-color: #fff;
-    padding: 15px 30px;
-    display: inline-block;
-    border-radius: 5px;
-    font-weight: 500; }
+    background-size: cover;
+    z-index: 2; }
+    .st-single-slider .st-slider-content .st-hero-text h1 {
+      font-size: 60px;
+      font-weight: 800;
+      margin-bottom: 25px;
+      color: #fff; }
+    .st-single-slider .st-slider-content .st-hero-text h2 {
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 35px;
+      color: #fff; }
+    .st-single-slider .st-slider-content .st-hero-text .st-btn {
+      color: #333333;
+      text-decoration: none;
+      background-color: #fff;
+      padding: 15px 30px;
+      display: inline-block;
+      border-radius: 5px;
+      font-weight: 500; }
 
 .st-single-brand {
   border: 1px solid #b5b5b5;
@@ -558,6 +566,18 @@ a:hover {
       margin: 0 20px; }
     .st-about .st-about-profile .st-about-profile-right {
       font-size: 36px; }
+  .st-about .st-half-width {
+    width: 50vw;
+    height: 100%;
+    display: block; }
+    .st-about .st-half-width .st-about-bg {
+      height: 100%;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: black;
+      opacity: 0.5; }
 
 .st-grid-container .st-gallery-in {
   display: grid;
@@ -619,9 +639,58 @@ a:hover {
     fill: #13788A;
     margin-bottom: 25px; }
 
-.st-chooseUs-content svg {
-  fill: #13788A;
-  margin-bottom: 15px; }
+.st-blog {
+  background: #f9fcfd; }
+  .st-blog .st-section-title svg {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%); }
+  .st-blog .st-single-blog:hover .st-blog-title {
+    color: #13788A; }
+  .st-blog .st-single-blog .st-blog-top-content {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    .st-blog .st-single-blog .st-blog-top-content img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .st-blog .st-single-blog .st-blog-top-content .st-blog-post-date {
+      color: #fff;
+      position: absolute;
+      right: 15px;
+      bottom: 15px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      background-color: #13788A; }
+      .st-blog .st-single-blog .st-blog-top-content .st-blog-post-date i {
+        margin-right: 3px; }
+  .st-blog .st-single-blog .st-blog-bottom-content {
+    background-color: #fff;
+    padding: 30px; }
+    .st-blog .st-single-blog .st-blog-bottom-content .st-blog-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0;
+      line-height: 27px;
+      transition: 0.3s;
+      text-decoration: none; }
+    .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text {
+      margin: 10px; }
+      .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-post-user,
+      .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-comments {
+        margin-right: 30px;
+        color: #777777; }
+        .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-post-user i,
+        .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-comments i {
+          color: #13788A;
+          margin-right: 5px;
+          display: block; }
+      .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-comments {
+        margin: 0; }
 
 .st-newsletter {
   background-color: #13788A; }
@@ -750,8 +819,9 @@ a:hover {
   font-weight: 500;
   font-size: 16px;
   position: relative;
-  display: inline;
-  padding-bottom: 15px; }
+  display: block;
+  padding-bottom: 15px;
+  margin-bottom: 20px; }
   .st-section-title svg {
     position: absolute;
     bottom: 0;

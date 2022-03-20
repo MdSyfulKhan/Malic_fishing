@@ -41,4 +41,18 @@
       font-size: 36px;
     }
   }
+  .st-half-width{
+    width: 50vw;
+    height: 100%;
+    display: block;
+    .st-about-bg{
+      height: 100%;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: black;
+      opacity: 0.5;
+    }
+  }
 }
