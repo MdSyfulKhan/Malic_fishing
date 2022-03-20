@@ -6,14 +6,27 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    .st-hero-bg {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      &::after {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+      }
+    }
   }
-  .st-slider-content{
+  .st-slider-content {
     height: 100%;
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     z-index: 2;
     .st-hero-text {
       h1 {
