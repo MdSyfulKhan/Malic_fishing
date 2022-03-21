@@ -27,4 +27,23 @@
       }
     }
   }
+  .st-half-width-right{
+    width: 50vw;
+    height: 100%;
+    position: relative;
+    .st-link-line{
+      position: absolute;
+      top: 65%;
+      left: 0;
+      margin-left: -10px;
+    }
+    .st-testmonial-video{
+      position: absolute;
+      left: 180px;
+      top: 0;
+      .st-testmonial-video-in{
+        position: relative;
+      }
+    }
+  }
 }

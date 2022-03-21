@@ -608,18 +608,53 @@ a:hover {
       margin: 0 20px; }
     .st-about .st-about-profile .st-about-profile-right {
       font-size: 36px; }
-  .st-about .st-half-width {
-    width: 50vw;
+  .st-about .st-half-width-right {
     height: 100%;
-    display: block; }
-    .st-about .st-half-width .st-about-bg {
+    width: 50vw;
+    position: relative; }
+    .st-about .st-half-width-right .st-about-bg {
+      position: absolute;
       height: 100%;
       width: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: black;
-      opacity: 0.5; }
+      background-position: center right;
+      background-repeat: no-repeat; }
+    .st-about .st-half-width-right .st-about-counter {
+      position: absolute;
+      height: 140px;
+      width: 560px;
+      background-color: rgba(62, 169, 183, 0.8);
+      left: 15%;
+      bottom: 5%; }
+      .st-about .st-half-width-right .st-about-counter .st-single-counter {
+        color: #fff;
+        width: 50%;
+        margin-left: 30px; }
+        .st-about .st-half-width-right .st-about-counter .st-single-counter .st-counter-number {
+          font-size: 44px;
+          font-weight: 500;
+          margin-bottom: 15px; }
+        .st-about .st-half-width-right .st-about-counter .st-single-counter .st-counter-text {
+          font-size: 18px; }
+
+.st-service-text .btn {
+  border: 1px solid #13788A;
+  padding: 10px 15px; }
+
+.st-single-service {
+  padding: 30px;
+  background-color: #f9fcfd;
+  -webkit-transition: 0.4s;
+  transition: 0.4s; }
+  .st-single-service:hover {
+    background-color: #13788A;
+    color: #fff; }
+    .st-single-service:hover svg {
+      fill: #fff; }
+    .st-single-service:hover .st-readmore-btn {
+      color: #fff; }
+  .st-single-service svg {
+    fill: #13788A;
+    margin-bottom: 25px; }
 
 .st-grid-container .st-gallery-in {
   display: grid;
@@ -664,25 +699,8 @@ a:hover {
         word-wrap: normal;
         color: #fff; }
 
-.st-service-text .btn {
-  border: 1px solid #13788A;
-  padding: 10px 15px; }
-
-.st-single-service {
-  padding: 30px;
-  background-color: #f9fcfd;
-  -webkit-transition: 0.4s;
-  transition: 0.4s; }
-  .st-single-service:hover {
-    background-color: #13788A;
-    color: #fff; }
-    .st-single-service:hover svg {
-      fill: #fff; }
-    .st-single-service:hover .st-readmore-btn {
-      color: #fff; }
-  .st-single-service svg {
-    fill: #13788A;
-    margin-bottom: 25px; }
+.st-features .st-half-width-left .st-features-bg {
+  margin-left: -100px; }
 
 .st-product .st-section-title svg {
   left: 50%;
@@ -789,6 +807,21 @@ a:hover {
         font-weight: 500; }
     .st-testmonial .st-testmonial-textbox .st-testmonial-user-icon svg {
       fill: #13788A; }
+  .st-testmonial .st-half-width-right {
+    width: 50vw;
+    height: 100%;
+    position: relative; }
+    .st-testmonial .st-half-width-right .st-link-line {
+      position: absolute;
+      top: 65%;
+      left: 0;
+      margin-left: -10px; }
+    .st-testmonial .st-half-width-right .st-testmonial-video {
+      position: absolute;
+      left: 180px;
+      top: 0; }
+      .st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in {
+        position: relative; }
 
 .st-blog {
   background: #f9fcfd; }

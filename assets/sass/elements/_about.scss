@@ -1,6 +1,6 @@
 .st-about {
   background-color: $wash_me;
-  .st-about-img{
+  .st-about-img {
     margin-bottom: 20px;
   }
   .st-about-profile {
@@ -41,18 +41,37 @@
       font-size: 36px;
     }
   }
-  .st-half-width{
-    width: 50vw;
+  .st-half-width-right {
     height: 100%;
-    display: block;
+    width: 50vw;
+    position: relative;
     .st-about-bg{
+      position: absolute;
       height: 100%;
       width: 100%;
-      background-position: center;
+      background-position: center right;
       background-repeat: no-repeat;
-      background-size: cover;
-      background-color: black;
-      opacity: 0.5;
+    }
+    .st-about-counter{
+      position: absolute;
+      height: 140px;
+      width: 560px;
+      background-color: rgba(62, 169, 183,0.8);
+      left: 15%;
+      bottom: 5%;
+      .st-single-counter{
+        color: $white;
+        width: 50%;
+        margin-left: 30px;
+        .st-counter-number{
+          font-size: 44px;
+          font-weight: 500;
+          margin-bottom: 15px;
+        }
+        .st-counter-text{
+          font-size: 18px;
+        }
+      }
     }
   }
 }
