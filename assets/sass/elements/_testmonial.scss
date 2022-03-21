@@ -35,14 +35,40 @@
       position: absolute;
       top: 65%;
       left: 0;
-      margin-left: -10px;
     }
     .st-testmonial-video{
       position: absolute;
-      left: 180px;
       top: 0;
+      left: 180px;
+      height: 100%;
+      width: 100%;
       .st-testmonial-video-in{
         position: relative;
+        width: 515px;
+        height: 492px;
+        img{
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+        }
+        .st-play{
+          position: absolute ;
+          height: 100px;
+          width: 100px;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%,-50%);
+          background-color: $white;
+          text-decoration: none;
+          border-radius: 50%;
+          border: 10px solid rgba(19, 120, 138, 0.8);
+          i{
+            font-size: 30px;
+            color: $alpine_landing;
+          }
+        }
       }
     }
   }

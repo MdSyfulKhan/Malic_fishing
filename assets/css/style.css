@@ -814,14 +814,38 @@ a:hover {
     .st-testmonial .st-half-width-right .st-link-line {
       position: absolute;
       top: 65%;
-      left: 0;
-      margin-left: -10px; }
+      left: 0; }
     .st-testmonial .st-half-width-right .st-testmonial-video {
       position: absolute;
+      top: 0;
       left: 180px;
-      top: 0; }
+      height: 100%;
+      width: 100%; }
       .st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in {
-        position: relative; }
+        position: relative;
+        width: 515px;
+        height: 492px; }
+        .st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in img {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%; }
+        .st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in .st-play {
+          position: absolute;
+          height: 100px;
+          width: 100px;
+          left: 50%;
+          top: 50%;
+          -webkit-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+          background-color: #fff;
+          text-decoration: none;
+          border-radius: 50%;
+          border: 10px solid rgba(19, 120, 138, 0.8); }
+          .st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in .st-play i {
+            font-size: 30px;
+            color: #13788A; }
 
 .st-blog {
   background: #f9fcfd; }
