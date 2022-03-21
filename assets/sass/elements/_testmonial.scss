@@ -1,3 +1,30 @@
-.st-testmonial{
+.st-testmonial {
   background-color: $wash_me;
+  .st-testmonial-textbox {
+    background-color: $white;
+    padding: 40px 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+    border-radius: 10px;
+    .st-testmonial-user {
+      height: 70px;
+    }
+    .st-user-left-content{
+      img{
+        height: 70px;
+        width: 70px;
+        border: 50%;
+      }
+      .st-user-details {
+        margin-left: 10px;
+        .st-name {
+          font-weight: 500;
+        }
+      }
+    }
+    .st-testmonial-user-icon{
+      svg{
+        fill: $alpine_landing;
+      }
+    }
+  }
 }

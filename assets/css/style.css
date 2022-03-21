@@ -375,7 +375,6 @@ img {
 a {
   color: inherit;
   -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
 a:hover {
@@ -398,32 +397,54 @@ a:hover {
   border-radius: 10px; }
 
 .st-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .st-flex-v-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .st-flex-h-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .st-flex-s-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .st-flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .st-zoom {
   position: relative;
   overflow: hidden; }
   .st-zoom .st-zoom-in {
+    -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out; }
   .st-zoom:hover .st-zoom-in {
-    transform: scale(1.07); }
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07); }
 
 .st-margin-b30 {
   margin-bottom: 25px; }
@@ -469,6 +490,8 @@ a:hover {
     border: 2px solid #13788A;
     border-radius: 50px;
     overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 40px;
     position: relative; }
@@ -534,8 +557,12 @@ a:hover {
   border: 1px solid #b5b5b5;
   display: block;
   border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 120px;
   cursor: pointer;
   padding: 15px; }
@@ -550,8 +577,12 @@ a:hover {
   .st-about .st-about-profile {
     margin-top: 40px;
     height: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center; }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
     .st-about .st-about-profile .st-about-profile-left {
       height: 100%; }
       .st-about .st-about-profile .st-about-profile-left img {
@@ -614,10 +645,12 @@ a:hover {
       position: absolute;
       top: 100%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
       background-color: #3ea9b7;
       width: 285px;
       padding: 30px;
+      -webkit-transition: 0.3s;
       transition: 0.3s;
       text-align: center;
       opacity: 0; }
@@ -638,6 +671,7 @@ a:hover {
 .st-single-service {
   padding: 30px;
   background-color: #f9fcfd;
+  -webkit-transition: 0.4s;
   transition: 0.4s; }
   .st-single-service:hover {
     background-color: #13788A;
@@ -653,7 +687,8 @@ a:hover {
 .st-product .st-section-title svg {
   left: 50%;
   position: absolute;
-  transform: translateX(-50%); }
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
 .st-product .st-category-items {
   list-style: none;
   border-bottom: 1px solid #b5b5b5; }
@@ -664,6 +699,7 @@ a:hover {
     padding-bottom: 15px;
     border-bottom: 2px solid transparent;
     cursor: pointer;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     margin-bottom: -1px; }
     .st-product .st-category-items li:hover {
@@ -681,22 +717,27 @@ a:hover {
   margin-bottom: 20px;
   background-color: #f9fcfd; }
   .st-product .st-single-product .st-product-top .st-product-img {
+    background-position: center;
+    background-repeat: no-repeat;
     height: 150px;
     width: 150px;
     position: absolute;
     left: 50%;
     top: 40%;
-    transform: translate(-50%, -40%); }
+    -webkit-transform: translate(-50%, -40%);
+            transform: translate(-50%, -40%); }
   .st-product .st-single-product .st-product-top .st-product-btn-group {
     position: absolute;
     left: 50%;
     bottom: 30px;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
     z-index: 5;
     list-style: none;
     margin: 0;
     padding: 0;
     opacity: 0;
+    -webkit-transition: 0.3s;
     transition: 0.3s; }
     .st-product .st-single-product .st-product-top .st-product-btn-group li {
       border: 1px solid #13788A;
@@ -730,13 +771,32 @@ a:hover {
 
 .st-testmonial {
   background-color: #f9fcfd; }
+  .st-testmonial .st-testmonial-textbox {
+    background-color: #fff;
+    padding: 40px 30px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+            box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+    border-radius: 10px; }
+    .st-testmonial .st-testmonial-textbox .st-testmonial-user {
+      height: 70px; }
+    .st-testmonial .st-testmonial-textbox .st-user-left-content img {
+      height: 70px;
+      width: 70px;
+      border: 50%; }
+    .st-testmonial .st-testmonial-textbox .st-user-left-content .st-user-details {
+      margin-left: 10px; }
+      .st-testmonial .st-testmonial-textbox .st-user-left-content .st-user-details .st-name {
+        font-weight: 500; }
+    .st-testmonial .st-testmonial-textbox .st-testmonial-user-icon svg {
+      fill: #13788A; }
 
 .st-blog {
   background: #f9fcfd; }
   .st-blog .st-section-title svg {
     left: 50%;
     position: absolute;
-    transform: translateX(-50%); }
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
   .st-blog .st-single-blog:hover .st-blog-title {
     color: #13788A; }
   .st-blog .st-single-blog .st-blog-top-content {
@@ -768,6 +828,7 @@ a:hover {
       font-weight: 600;
       margin: 0;
       line-height: 27px;
+      -webkit-transition: 0.3s;
       transition: 0.3s;
       text-decoration: none; }
     .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text {
@@ -824,7 +885,8 @@ a:hover {
         position: absolute;
         top: 50%;
         right: 5px;
-        transform: translateY(-50%); }
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%); }
     .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-heading {
       font-size: 22px;
       font-weight: 700;
@@ -855,6 +917,8 @@ a:hover {
     margin: 0;
     padding: 0; }
     .st-footer .st-footer-contact-list .st-contact-item {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       margin-bottom: 20px; }
       .st-footer .st-footer-contact-list .st-contact-item i {
@@ -887,6 +951,7 @@ a:hover {
   color: #13788A;
   text-decoration: none;
   font-weight: 500;
+  -webkit-transition: 0.3s;
   transition: 0.3s; }
   .st-readmore-btn:hover {
     margin-left: 3px; }
@@ -936,5 +1001,3 @@ a:hover {
 
 .st-sub-heading-paragraph {
   margin-bottom: 20px; }
-
-/*# sourceMappingURL=style.css.map */
