@@ -29,73 +29,42 @@
     }
   }
   .st-single-product {
-    &:hover .st-product-top .st-product-btn-group{
-      opacity: 1;
-    }
+    //product top content
     .st-product-top {
-      position: relative;
-      width: 100%;
-      height: 300px;
-      margin-bottom: 20px;
       background-color: $wash_me;
-      .st-product-img {
-        background-position: center;
-        background-repeat: no-repeat;
+      img {
         height: 150px;
         width: 150px;
-        position: absolute;
-        left: 50%;
-        top: 40%;
-        transform: translate(-50%, -40%);
       }
-      .st-product-btn-group {
-        position: absolute;
-        left: 50%;
-        bottom: 30px;
-        transform: translateX(-50%);
-        z-index: 5;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        opacity: 0;
-        transition: 0.3s;
-        li {
+      .st-product-links{
+        a{
           border: 1px solid $alpine_landing;
           height: 35px;
           width: 35px;
-          border-radius: 3px;
-          margin-right: 5px;
-          background-color: $white;
-          line-height: 0;
-          cursor: pointer;
           &:nth-child(2){
             height: 35px;
-            width: 150px;
-            overflow: hidden;
-            .fa-cart-shopping{
+            width: initial;
+            i{
               background-color: $alpine_landing;
-              display: inline-block;
-              color: $white;
-              padding: 10px;
-              margin-right: 10px;
+              height: 100%;
+              width: 100%;
+              display: block;
             }
-          }
-          &:last-child{
-            margin: 0;
           }
         }
       }
     }
-    .st-product-bottom{
-      .st-product-name{
+    //product bottom content
+    .st-product-bottom {
+      .st-product-name {
         margin-bottom: 5px;
       }
-      .st-product-price{
+      .st-product-price {
         color: $alpine_landing;
         font-weight: 500;
         margin-bottom: 5px;
       }
-      .st-product-rating{
+      .st-product-rating {
         color: #ffb800;
       }
     }

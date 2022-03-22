@@ -1,0 +1,10 @@
+.st-team {
+  .st-team-caresol-right {
+    width: calc(61vw + 3px);
+    .st-slider-wrapper {
+      display: grid;
+      grid-template: 1fr / 1fr 1fr 1fr;
+      grid-gap: 15px;
+    }
+  }
+}

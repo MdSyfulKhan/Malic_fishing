@@ -23,8 +23,8 @@
     .st-newsletter-right{
       .st-newsletter-input-group{
         position: relative;
-        height: 60px;
-        width: 600px;
+        min-height: 60px;
+        min-width: 600px;
         background-color: $white;
         border-radius: 5px;
         overflow: hidden;
@@ -45,6 +45,11 @@
           top: 50%;
           right: 5px;
           transform: translateY(-50%);
+          transition: 0.15s;
+          &:hover{
+            border: 2px solid $alpine_landing;
+            color: $alpine_landing;
+          }
         }
       }
       .st-newsletter-heading{

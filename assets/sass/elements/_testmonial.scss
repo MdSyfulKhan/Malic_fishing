@@ -1,70 +1,75 @@
 .st-testmonial {
   background-color: $wash_me;
-  .st-testmonial-textbox {
-    background-color: $white;
-    padding: 40px 30px;
-    box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
-    border-radius: 10px;
-    .st-testmonial-user {
-      height: 70px;
+
+  .st-testmonial-content {
+    min-height: 480px;
+
+    .st-testmonial-textbox {
+      background-color: $white;
+      padding: 40px 30px;
+      box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+      border-radius: 10px;
+      .st-testmonial-user {
+        height: 70px;
+      }
     }
-    .st-user-left-content{
-      img{
+    .st-user-left-content {
+      img {
         height: 70px;
         width: 70px;
         border: 50%;
       }
       .st-user-details {
         margin-left: 10px;
-        .st-name {
-          font-weight: 500;
-        }
+      }
+      .st-name {
+        font-weight: 500;
       }
     }
-    .st-testmonial-user-icon{
-      svg{
+    .st-testmonial-user-icon {
+      svg {
         fill: $alpine_landing;
       }
     }
   }
-  .st-half-width-right{
+  .st-half-width-right {
     width: 50vw;
     height: 100%;
     position: relative;
-    .st-link-line{
+    .st-link-line {
       position: absolute;
       top: 65%;
       left: 0;
     }
-    .st-testmonial-video{
+    .st-testmonial-video {
       position: absolute;
       top: 0;
-      left: 180px;
+      padding-left: 180px;
       height: 100%;
       width: 100%;
-      .st-testmonial-video-in{
+      .st-testmonial-video-in {
         position: relative;
         width: 515px;
         height: 492px;
-        img{
+        img {
           position: absolute;
           left: 0;
           top: 0;
           height: 100%;
           width: 100%;
         }
-        .st-play{
-          position: absolute ;
+        .st-play {
+          position: absolute;
           height: 100px;
           width: 100px;
           left: 50%;
           top: 50%;
-          transform: translate(-50%,-50%);
+          transform: translate(-50%, -50%);
           background-color: $white;
           text-decoration: none;
           border-radius: 50%;
           border: 10px solid rgba(19, 120, 138, 0.8);
-          i{
+          i {
             font-size: 30px;
             color: $alpine_landing;
           }

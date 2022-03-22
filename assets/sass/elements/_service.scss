@@ -2,6 +2,16 @@
   .btn{
     border: 1px solid $alpine_landing;
     padding: 10px 15px;
+    &:hover{
+      background-color: $alpine_landing;
+      color: $white;
+      i{
+        margin-left: 5px;
+      }
+    }
+    i{
+      margin-left: 5px;
+    }
   }
 }
 .st-single-service{
