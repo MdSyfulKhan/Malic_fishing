@@ -375,6 +375,7 @@ img {
 a {
   color: inherit;
   -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
 a:hover {
@@ -397,54 +398,32 @@ a:hover {
   border-radius: 10px; }
 
 .st-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 .st-flex-v-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
 
 .st-flex-h-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 
 .st-flex-s-between {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .st-flex-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  align-items: center;
+  justify-content: center; }
 
 .st-zoom {
   position: relative;
   overflow: hidden; }
   .st-zoom .st-zoom-in {
-    -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out; }
   .st-zoom:hover .st-zoom-in {
-    -webkit-transform: scale(1.07);
-            transform: scale(1.07); }
+    transform: scale(1.07); }
 
 .st-margin-b30 {
   margin-bottom: 25px; }
@@ -513,7 +492,6 @@ a:hover {
         outline: none;
         background-color: #13788A;
         color: #fff;
-        -webkit-transition: 0.15s;
         transition: 0.15s; }
         .st-main-header-bottom .st-main-header-right .st-search-bar button:hover {
           opacity: 0.85; }
@@ -521,7 +499,6 @@ a:hover {
       color: #111;
       margin-left: 20px;
       padding: 10px;
-      -webkit-transition: 0.15s;
       transition: 0.15s; }
       .st-main-header-bottom .st-main-header-right .st-shopping-card:hover {
         color: #13788A; }
@@ -565,7 +542,6 @@ a:hover {
       display: inline-block;
       border-radius: 5px;
       font-weight: 500;
-      -webkit-transition: 0.3s;
       transition: 0.3s; }
       .st-single-slider .st-slider-content .st-hero-text .st-btn:hover {
         background-color: #13788A;
@@ -575,12 +551,8 @@ a:hover {
   border: 1px solid #b5b5b5;
   display: block;
   border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   height: 120px;
   cursor: pointer;
   padding: 15px; }
@@ -594,12 +566,8 @@ a:hover {
     margin-bottom: 20px; }
   .st-about .st-about-profile {
     height: 65px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    align-items: center; }
     .st-about .st-about-profile .st-about-profile-left {
       height: 100%; }
       .st-about .st-about-profile .st-about-profile-left img {
@@ -629,6 +597,7 @@ a:hover {
     height: 100%;
     width: 50vw; }
     .st-about .st-half-width-right .st-about-bg {
+      position: relative;
       height: 100%;
       width: 100%;
       background-position: center right;
@@ -636,8 +605,12 @@ a:hover {
       background-size: cover; }
       .st-about .st-half-width-right .st-about-bg .st-about-counter {
         background-color: rgba(62, 169, 183, 0.8);
-        max-width: 500px;
-        min-height: 140px; }
+        min-width: 500px;
+        min-height: 140px;
+        position: absolute;
+        left: 50%;
+        top: 75%;
+        transform: translateX(-50%); }
         .st-about .st-half-width-right .st-about-bg .st-about-counter .st-single-counter {
           color: #fff;
           min-width: 50%;
@@ -663,7 +636,6 @@ a:hover {
 .st-single-service {
   padding: 30px;
   background-color: #f9fcfd;
-  -webkit-transition: 0.4s;
   transition: 0.4s; }
   .st-single-service:hover {
     background-color: #13788A;
@@ -690,8 +662,7 @@ a:hover {
     .st-grid-container .st-gallery-in .st-single-gallery:hover .st-gallery-textbox {
       top: 50%;
       left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%); }
+      transform: translate(-50%, -50%); }
     .st-grid-container .st-gallery-in .st-single-gallery .st-gallery-bg {
       height: 100%;
       width: 100%;
@@ -705,11 +676,9 @@ a:hover {
       position: absolute;
       top: 100%;
       left: 50%;
-      -webkit-transform: translateX(-50%);
-              transform: translateX(-50%);
+      transform: translateX(-50%);
       background-color: rgba(62, 169, 183, 0.8);
       padding: 20px 30px;
-      -webkit-transition: 0.3s;
       transition: 0.3s;
       text-align: center;
       color: #fff; }
@@ -723,11 +692,20 @@ a:hover {
         word-wrap: normal;
         color: #fff; }
 
+.st-features .st-half-width-left {
+  width: 50vw;
+  max-height: 480px;
+  height: 480px; }
+  .st-features .st-half-width-left .st-feature-bg {
+    height: 100%;
+    background-position: start;
+    background-repeat: no-repeat;
+    object-fit: cover; }
+
 .st-product .st-section-title svg {
   left: 50%;
   position: absolute;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%); }
+  transform: translateX(-50%); }
 .st-product .st-category-items {
   list-style: none;
   border-bottom: 1px solid #b5b5b5; }
@@ -738,7 +716,6 @@ a:hover {
     padding-bottom: 15px;
     border-bottom: 2px solid transparent;
     cursor: pointer;
-    -webkit-transition: 0.3s;
     transition: 0.3s;
     margin-bottom: -1px; }
     .st-product .st-category-items li:hover {
@@ -747,23 +724,51 @@ a:hover {
     .st-product .st-category-items li.active {
       color: #13788A;
       border-bottom: 2px solid #13788A; }
+.st-product .st-single-product:hover .st-product-top ul {
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%); }
 .st-product .st-single-product .st-product-top {
-  background-color: #f9fcfd; }
+  background-color: #f9fcfd;
+  position: relative;
+  overflow: hidden; }
   .st-product .st-single-product .st-product-top img {
     height: 150px;
     width: 150px; }
-  .st-product .st-single-product .st-product-top .st-product-links a {
-    border: 1px solid #13788A;
-    height: 35px;
-    width: 35px; }
-    .st-product .st-single-product .st-product-top .st-product-links a:nth-child(2) {
+  .st-product .st-single-product .st-product-top ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s; }
+    .st-product .st-single-product .st-product-top ul li {
       height: 35px;
-      width: initial; }
-      .st-product .st-single-product .st-product-top .st-product-links a:nth-child(2) i {
-        background-color: #13788A;
-        height: 100%;
-        width: 100%;
-        display: block; }
+      width: 35px;
+      line-height: 35px;
+      display: inline-block;
+      border: 1px solid #13788A;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-right: 5px; }
+      .st-product .st-single-product .st-product-top ul li:nth-child(2) {
+        min-width: 150px;
+        text-align: start;
+        line-height: 0; }
+        .st-product .st-single-product .st-product-top ul li:nth-child(2) a i {
+          padding: 10px;
+          background-color: #13788A;
+          margin-right: 10px;
+          color: #fff; }
+      .st-product .st-single-product .st-product-top ul li:last-child {
+        margin: 0; }
+      .st-product .st-single-product .st-product-top ul li:hover {
+        color: #13788A; }
+      .st-product .st-single-product .st-product-top ul li a {
+        display: block;
+        text-decoration: none; }
 .st-product .st-single-product .st-product-bottom .st-product-name {
   margin-bottom: 5px; }
 .st-product .st-single-product .st-product-bottom .st-product-price {
@@ -780,8 +785,7 @@ a:hover {
     .st-testmonial .st-testmonial-content .st-testmonial-textbox {
       background-color: #fff;
       padding: 40px 30px;
-      -webkit-box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
-              box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
+      box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 5px;
       border-radius: 10px; }
       .st-testmonial .st-testmonial-content .st-testmonial-textbox .st-testmonial-user {
         height: 70px; }
@@ -825,8 +829,7 @@ a:hover {
           width: 100px;
           left: 50%;
           top: 50%;
-          -webkit-transform: translate(-50%, -50%);
-                  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
           background-color: #fff;
           text-decoration: none;
           border-radius: 50%;
@@ -847,8 +850,7 @@ a:hover {
   .st-blog .st-section-title svg {
     left: 50%;
     position: absolute;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%); }
+    transform: translateX(-50%); }
   .st-blog .st-single-blog:hover .st-blog-title {
     color: #13788A; }
   .st-blog .st-single-blog .st-blog-top-content {
@@ -882,7 +884,6 @@ a:hover {
       font-weight: 600;
       margin: 0;
       line-height: 27px;
-      -webkit-transition: 0.3s;
       transition: 0.3s;
       text-decoration: none; }
     .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text {
@@ -939,9 +940,7 @@ a:hover {
         position: absolute;
         top: 50%;
         right: 5px;
-        -webkit-transform: translateY(-50%);
-                transform: translateY(-50%);
-        -webkit-transition: 0.15s;
+        transform: translateY(-50%);
         transition: 0.15s; }
         .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-input-group .st-btn-bg:hover {
           border: 2px solid #13788A;
@@ -976,8 +975,6 @@ a:hover {
     margin: 0;
     padding: 0; }
     .st-footer .st-footer-contact-list .st-contact-item {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       margin-bottom: 20px; }
       .st-footer .st-footer-contact-list .st-contact-item i {
@@ -1011,7 +1008,6 @@ a:hover {
   color: #13788A;
   text-decoration: none;
   font-weight: 500;
-  -webkit-transition: 0.3s;
   transition: 0.3s; }
   .st-readmore-btn:hover {
     margin-left: 3px; }
@@ -1061,3 +1057,5 @@ a:hover {
 
 .st-sub-heading-paragraph {
   margin-bottom: 20px; }
+
+/*# sourceMappingURL=style.css.map */

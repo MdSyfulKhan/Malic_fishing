@@ -45,6 +45,7 @@
     height: 100%;
     width: 50vw;
     .st-about-bg{
+      position: relative;
       height: 100%;
       width: 100%;
       background-position: center right;
@@ -52,8 +53,12 @@
       background-size: cover;
       .st-about-counter{
         background-color: rgba(62, 169, 183,0.8);
-        max-width: 500px;
+        min-width: 500px;
         min-height: 140px;
+        position: absolute;
+        left: 50%;
+        top: 75%;
+        transform: translateX(-50%);
         .st-single-counter{
           color: $white;
           min-width: 50%;

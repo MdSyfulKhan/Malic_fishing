@@ -30,26 +30,59 @@
   }
   .st-single-product {
     //product top content
+    &:hover .st-product-top ul {
+      top: 75%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
     .st-product-top {
       background-color: $wash_me;
+      position: relative;
+      overflow: hidden;
       img {
         height: 150px;
         width: 150px;
       }
-      .st-product-links{
-        a{
-          border: 1px solid $alpine_landing;
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.3s;
+        li {
           height: 35px;
           width: 35px;
-          &:nth-child(2){
-            height: 35px;
-            width: initial;
-            i{
-              background-color: $alpine_landing;
-              height: 100%;
-              width: 100%;
-              display: block;
+          line-height: 35px;
+          display: inline-block;
+          border: 1px solid $alpine_landing;
+          border-radius: 3px;
+          overflow: hidden;
+          margin-right: 5px;
+          &:nth-child(2) {
+            min-width: 150px;
+            text-align: start;
+            line-height: 0;
+            a {
+              i {
+                padding: 10px;
+                background-color: $alpine_landing;
+                margin-right: 10px;
+                color: $white;
+              }
             }
+          }
+          &:last-child {
+            margin: 0;
+          }
+          &:hover{
+            color: $alpine_landing;
+          }
+          a {
+            display: block;
+            text-decoration: none;
           }
         }
       }
