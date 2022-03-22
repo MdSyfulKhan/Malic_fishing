@@ -474,38 +474,49 @@ a:hover {
 
 .st-main-header-bottom {
   height: 80px; }
-  .st-main-header-bottom .st-nav-list {
-    list-style: none;
-    margin: 0; }
-  .st-main-header-bottom li {
-    margin-left: 20px;
-    font-weight: 500;
-    position: relative; }
-    .st-main-header-bottom li :hover {
-      color: #13788A; }
-    .st-main-header-bottom li a {
-      text-decoration: none; }
-  .st-main-header-bottom .st-search-bar {
-    width: 200px;
-    border: 2px solid #13788A;
-    border-radius: 50px;
-    overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 40px;
-    position: relative; }
-    .st-main-header-bottom .st-search-bar .st-input-field {
-      width: 150px;
-      border: 0;
-      outline: none;
-      padding: 5px 10px; }
-    .st-main-header-bottom .st-search-bar .st-search-btn {
-      background-color: #13788A;
-      color: #fff;
-      height: 100%;
-      width: 50px;
-      cursor: pointer; }
+  .st-main-header-bottom .st-main-header-right {
+    height: 100%; }
+    .st-main-header-bottom .st-main-header-right ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .st-main-header-bottom .st-main-header-right ul li {
+        display: inline-block;
+        margin-right: 30px; }
+        .st-main-header-bottom .st-main-header-right ul li:hover {
+          color: #13788A; }
+        .st-main-header-bottom .st-main-header-right ul li a {
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 16px; }
+    .st-main-header-bottom .st-main-header-right .st-search-bar {
+      position: relative;
+      height: 40px;
+      width: 100%;
+      min-width: 200px;
+      border: 1px solid #13788A;
+      border-radius: 50px;
+      overflow: hidden; }
+      .st-main-header-bottom .st-main-header-right .st-search-bar input {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        outline: none;
+        border: none;
+        padding-left: 10px; }
+      .st-main-header-bottom .st-main-header-right .st-search-bar button {
+        position: absolute;
+        height: 100%;
+        width: 50px;
+        right: 0;
+        border: none;
+        outline: none;
+        background-color: #13788A;
+        color: #fff; }
+    .st-main-header-bottom .st-main-header-right .st-shopping-card {
+      color: #111;
+      margin-left: 25px;
+      padding: 5px; }
 
 .st-single-slider {
   height: 800px;
@@ -846,18 +857,6 @@ a:hover {
           .st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in .st-play i {
             font-size: 30px;
             color: #13788A; }
-
-.st-team .st-contact-btn {
-  padding: 15px 35px;
-  text-decoration: none;
-  border: 1px solid #13788A;
-  border-radius: 5px; }
-.st-team .slick-slide-in {
-  display: grid;
-  grid-template: 1fr/repeat(3, 1fr);
-  grid-column-gap: 30px;
-  height: 100%;
-  width: 100%; }
 
 .st-blog {
   background: #f9fcfd; }

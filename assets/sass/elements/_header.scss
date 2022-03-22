@@ -25,42 +25,56 @@
 }
 .st-main-header-bottom{
   height: 80px;
-  .st-nav-list{
-    list-style: none;
-    margin: 0;
-  }
-  li{
-    margin-left: 20px;
-    font-weight: 500;
-    position: relative;
-    :hover{
-      color: $alpine_landing;
+  .st-main-header-right{
+    height: 100%;
+    ul{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li{
+        display: inline-block;
+        margin-right: 30px;
+        &:hover {
+          color: $alpine_landing;
+        }
+        a{
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 16px;
+        }
+      }
     }
-    a{
-      text-decoration: none;
+    .st-search-bar{
+      position: relative;
+      height: 40px;
+      width: 100%;
+      min-width: 200px;
+      border: 1px solid $alpine_landing;
+      border-radius: 50px;
+      overflow: hidden;
+      input{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        outline: none;
+        border: none;
+        padding-left: 10px;
+      }
+      button{
+        position: absolute;
+        height: 100%;
+        width: 50px;
+        right: 0;
+        border: none;
+        outline: none;
+        background-color: $alpine_landing;
+        color: $white;
+      }
     }
-    
-  }
-  .st-search-bar{
-    width: 200px;
-    border: 2px solid $alpine_landing;
-    border-radius: 50px;
-    overflow: hidden;
-    display: flex;
-    height: 40px;
-    position: relative;
-    .st-input-field{
-      width: 150px;
-      border: 0;
-      outline: none;
-      padding: 5px 10px;
-    }
-    .st-search-btn{
-      background-color: $alpine_landing;
-      color: $white;
-      height: 100%;
-      width: 50px;
-      cursor: pointer;
+    .st-shopping-card{
+      color: $primary;
+      margin-left: 25px;
+      padding: 5px;
     }
   }
 }
