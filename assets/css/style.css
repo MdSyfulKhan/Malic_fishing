@@ -512,11 +512,19 @@ a:hover {
         border: none;
         outline: none;
         background-color: #13788A;
-        color: #fff; }
+        color: #fff;
+        -webkit-transition: 0.15s;
+        transition: 0.15s; }
+        .st-main-header-bottom .st-main-header-right .st-search-bar button:hover {
+          opacity: 0.85; }
     .st-main-header-bottom .st-main-header-right .st-shopping-card {
       color: #111;
-      margin-left: 25px;
-      padding: 5px; }
+      margin-left: 20px;
+      padding: 10px;
+      -webkit-transition: 0.15s;
+      transition: 0.15s; }
+      .st-main-header-bottom .st-main-header-right .st-shopping-card:hover {
+        color: #13788A; }
 
 .st-single-slider {
   height: 800px;
@@ -560,7 +568,8 @@ a:hover {
       -webkit-transition: 0.3s;
       transition: 0.3s; }
       .st-single-slider .st-slider-content .st-hero-text .st-btn:hover {
-        color: #13788A; }
+        background-color: #13788A;
+        color: #fff; }
 
 .st-single-brand {
   border: 1px solid #b5b5b5;

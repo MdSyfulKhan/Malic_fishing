@@ -70,12 +70,20 @@
         outline: none;
         background-color: $alpine_landing;
         color: $white;
+        transition: 0.15s;
+        &:hover{
+          opacity: 0.85;
+        }
       }
     }
     .st-shopping-card{
       color: $primary;
-      margin-left: 25px;
-      padding: 5px;
+      margin-left: 20px;
+      padding: 10px;
+      transition: 0.15s;
+      &:hover{
+        color: $alpine_landing;
+      }
     }
   }
 }

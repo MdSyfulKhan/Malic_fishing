@@ -44,7 +44,8 @@
         font-weight: 500;
         transition: 0.3s;
         &:hover{
-          color: $alpine_landing;
+          background-color: $alpine_landing;
+          color: $white;
         }
       }
     }
