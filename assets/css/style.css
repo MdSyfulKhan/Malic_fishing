@@ -593,7 +593,6 @@ a:hover {
   .st-about .st-about-img {
     margin-bottom: 20px; }
   .st-about .st-about-profile {
-    margin-top: 40px;
     height: 65px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -628,31 +627,27 @@ a:hover {
       font-size: 36px; }
   .st-about .st-half-width-right {
     height: 100%;
-    width: 50vw;
-    position: relative; }
+    width: 50vw; }
     .st-about .st-half-width-right .st-about-bg {
-      position: absolute;
       height: 100%;
       width: 100%;
       background-position: center right;
-      background-repeat: no-repeat; }
-    .st-about .st-half-width-right .st-about-counter {
-      position: absolute;
-      height: 140px;
-      width: 560px;
-      background-color: rgba(62, 169, 183, 0.8);
-      left: 15%;
-      bottom: 5%; }
-      .st-about .st-half-width-right .st-about-counter .st-single-counter {
-        color: #fff;
-        width: 50%;
-        margin-left: 30px; }
-        .st-about .st-half-width-right .st-about-counter .st-single-counter .st-counter-number {
-          font-size: 44px;
-          font-weight: 500;
-          margin-bottom: 15px; }
-        .st-about .st-half-width-right .st-about-counter .st-single-counter .st-counter-text {
-          font-size: 18px; }
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .st-about .st-half-width-right .st-about-bg .st-about-counter {
+        background-color: rgba(62, 169, 183, 0.8);
+        max-width: 500px;
+        min-height: 140px; }
+        .st-about .st-half-width-right .st-about-bg .st-about-counter .st-single-counter {
+          color: #fff;
+          min-width: 50%;
+          padding-left: 30px; }
+          .st-about .st-half-width-right .st-about-bg .st-about-counter .st-single-counter .st-counter-number {
+            font-size: 44px;
+            font-weight: 500;
+            margin-bottom: 15px; }
+          .st-about .st-half-width-right .st-about-bg .st-about-counter .st-single-counter .st-counter-text {
+            font-size: 18px; }
 
 .st-service-text .btn {
   border: 1px solid #13788A;

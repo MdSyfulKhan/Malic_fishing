@@ -4,7 +4,6 @@
     margin-bottom: 20px;
   }
   .st-about-profile {
-    margin-top: 40px;
     height: 65px;
     display: flex;
     align-items: center;
@@ -41,35 +40,32 @@
       font-size: 36px;
     }
   }
+  //about outer container
   .st-half-width-right {
     height: 100%;
     width: 50vw;
-    position: relative;
     .st-about-bg{
-      position: absolute;
       height: 100%;
       width: 100%;
       background-position: center right;
       background-repeat: no-repeat;
-    }
-    .st-about-counter{
-      position: absolute;
-      height: 140px;
-      width: 560px;
-      background-color: rgba(62, 169, 183,0.8);
-      left: 15%;
-      bottom: 5%;
-      .st-single-counter{
-        color: $white;
-        width: 50%;
-        margin-left: 30px;
-        .st-counter-number{
-          font-size: 44px;
-          font-weight: 500;
-          margin-bottom: 15px;
-        }
-        .st-counter-text{
-          font-size: 18px;
+      background-size: cover;
+      .st-about-counter{
+        background-color: rgba(62, 169, 183,0.8);
+        max-width: 500px;
+        min-height: 140px;
+        .st-single-counter{
+          color: $white;
+          min-width: 50%;
+          padding-left: 30px;
+          .st-counter-number{
+            font-size: 44px;
+            font-weight: 500;
+            margin-bottom: 15px;
+          }
+          .st-counter-text{
+            font-size: 18px;
+          }
         }
       }
     }
