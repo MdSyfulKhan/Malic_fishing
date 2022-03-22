@@ -525,44 +525,42 @@ a:hover {
   .st-single-slider .st-hero-overlay {
     position: absolute;
     height: 100%;
-    width: 100%; }
-    .st-single-slider .st-hero-overlay .st-hero-bg {
-      height: 100%;
-      width: 100%;
-      position: relative;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-      .st-single-slider .st-hero-overlay .st-hero-bg::after {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 2; }
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1; }
+  .st-single-slider .st-hero-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
   .st-single-slider .st-slider-content {
     height: 100%;
     width: 100%;
+    position: relative;
     z-index: 2; }
     .st-single-slider .st-slider-content .st-hero-text h1 {
       font-size: 60px;
       font-weight: 800;
       margin-bottom: 25px;
       color: #fff; }
-    .st-single-slider .st-slider-content .st-hero-text h2 {
+    .st-single-slider .st-slider-content .st-hero-text p {
       font-size: 18px;
       line-height: 30px;
       margin-bottom: 35px;
       color: #fff; }
     .st-single-slider .st-slider-content .st-hero-text .st-btn {
       color: #333333;
-      text-decoration: none;
       background-color: #fff;
       padding: 15px 30px;
       display: inline-block;
       border-radius: 5px;
-      font-weight: 500; }
+      font-weight: 500;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+      .st-single-slider .st-slider-content .st-hero-text .st-btn:hover {
+        color: #13788A; }
 
 .st-single-brand {
   border: 1px solid #b5b5b5;

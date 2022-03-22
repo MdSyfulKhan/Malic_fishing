@@ -6,27 +6,21 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    .st-hero-bg {
-      height: 100%;
-      width: 100%;
-      position: relative;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      &::after {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 2;
-      }
-    }
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    z-index: 1;
+  }
+  .st-hero-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .st-slider-content {
     height: 100%;
     width: 100%;
+    position: relative;
     z-index: 2;
     .st-hero-text {
       h1 {
@@ -35,7 +29,7 @@
         margin-bottom: 25px;
         color: $white;
       }
-      h2 {
+      p {
         font-size: 18px;
         line-height: 30px;
         margin-bottom: 35px;
@@ -43,12 +37,15 @@
       }
       .st-btn {
         color: $carbon;
-        text-decoration: none;
         background-color: $white;
         padding: 15px 30px;
         display: inline-block;
         border-radius: 5px;
         font-weight: 500;
+        transition: 0.3s;
+        &:hover{
+          color: $alpine_landing;
+        }
       }
     }
   }
