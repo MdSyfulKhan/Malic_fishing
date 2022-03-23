@@ -48,9 +48,10 @@
         font-size: 18px;
         font-weight: 600;
         margin: 0;
-        line-height: 27px;
-        transition: 0.3s;
-        text-decoration: none;
+        transition: 0.15s;
+        a{
+          text-decoration: none;
+        }
       }
       .st-blog-text {
         margin: 10px;
@@ -58,6 +59,12 @@
         .st-blog-comments {
           margin-right: 30px;
           color: $steel_wool;
+          a{
+            text-decoration: none;
+            &:hover{
+              color: $alpine_landing;
+            }
+          }
           i {
             color: $alpine_landing;
             margin-right: 5px;

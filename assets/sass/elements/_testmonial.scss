@@ -48,15 +48,7 @@
       width: 100%;
       .st-testmonial-video-in {
         position: relative;
-        width: 515px;
-        height: 492px;
-        img {
-          position: absolute;
-          left: 0;
-          top: 0;
-          height: 100%;
-          width: 100%;
-        }
+        display: inline-block;
         .st-play {
           position: absolute;
           height: 100px;

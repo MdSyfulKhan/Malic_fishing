@@ -26,6 +26,11 @@
 //main header bottom
 .st-main-header-bottom{
   height: 80px;
+  .st-brand{
+    a{
+      display: inline-block;
+    }
+  }
   .st-main-header-right{
     height: 100%;
     ul{

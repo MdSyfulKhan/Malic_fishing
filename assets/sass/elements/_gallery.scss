@@ -26,13 +26,14 @@
       }
       .st-gallery-textbox{
         min-height: 130px;
-        min-width: 285px;
+        max-width: 285px;
+        width: 100%;
         position: absolute;
         top: 100%;
         left: 50%;
         transform: translateX(-50%);
         background-color: rgba($aquatic_cool,0.8);
-        padding: 20px 30px;
+        padding: 20px 15px;
         transition: 0.3s;
         text-align: center;
         color: $white;
