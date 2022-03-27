@@ -42,9 +42,12 @@
         &:hover {
           color: $accent;
         }
+        &.active{
+          color: $accent;
+        }
         a {
           text-decoration: none;
-          font-weight: 500;
+          font-weight: 600;
           font-size: 16px;
         }
       }

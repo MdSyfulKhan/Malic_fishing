@@ -1,35 +1,29 @@
-.st-service-text {
-  .btn {
-    border: 1px solid $accent;
-    padding: 10px 15px;
-    &:hover {
-      background-color: $accent;
-      color: $white;
-      i {
-        margin-left: 5px;
-      }
-    }
+.st-service{
+  .st-service-text {
     i {
       margin-left: 5px;
     }
   }
-}
-.st-single-service {
-  padding: 30px;
-  background-color: $lightgray;
-  transition: 0.4s;
-  &:hover {
-    background-color: $accent;
-    color: $white;
-    svg {
-      fill: $white;
-    }
-    .st-readmore-btn {
+  .st-single-service {
+    padding: 30px;
+    transition: 0.4s;
+    background-color: rgba($accent,0.03);
+    &:hover {
+      background-color: $accent;
       color: $white;
+      .st-section-sub-heading {
+        color: currentColor;
+      }
+      svg {
+        fill: $white;
+      }
+      .st-readmore-btn {
+        color: $white;
+      }
     }
-  }
-  svg {
-    fill: $accent;
-    margin-bottom: 25px;
+    svg {
+      fill: $accent;
+      margin-bottom: 25px;
+    }
   }
 }

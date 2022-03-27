@@ -1,5 +1,5 @@
 .st-blog {
-  background: #f9fcfd;
+  background: rgba($accent, 0.03);
   .st-section-title {
     svg {
       left: 50%;
@@ -8,9 +8,15 @@
     }
   }
   .st-single-blog {
+    border-radius: 5px;
+    transition: 0.3s;
     &:hover {
+      box-shadow: 0px 5px 5px 5px rgba($accent, 0.15);
       .st-blog-title {
         color: $accent;
+      }
+      .st-blog-img {
+        transform: scale(1.1);
       }
     }
     .st-blog-top-content {
@@ -18,6 +24,7 @@
       min-height: 213px;
       height: 250px;
       width: 100%;
+      overflow: hidden;
       .st-blog-img {
         position: absolute;
         height: 100%;

@@ -1,5 +1,5 @@
 .st-about {
-  background-color: $lightgray;
+  background-color: rgba($accent, 0.03);
   .st-about-img {
     margin-bottom: 20px;
     svg {
@@ -57,7 +57,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       .st-about-counter {
-        background-color: rgba(62, 169, 183, 0.8);
+        background-color: rgba($accent, 0.8);
         min-width: 500px;
         min-height: 140px;
         position: absolute;

@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------
 2. Spacing
 ----------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 @media screen and (min-width: 992px) {
   .st-height-b0 {
     height: 0px;
@@ -306,8 +307,8 @@
 body,
 html {
   color: #777777;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.6em;
   overflow-x: hidden;
@@ -321,6 +322,7 @@ h3,
 h6 {
   clear: both;
   color: #333333;
+  font-family: "Montserrat", sans-serif;
   padding: 0;
   margin: 0 0 10px 0;
   font-weight: 700;
@@ -539,12 +541,16 @@ a:hover {
 }
 
 .st-main-header-bottom .st-main-header-right ul li:hover {
-  color: #13788a;
+  color: #13778A;
+}
+
+.st-main-header-bottom .st-main-header-right ul li.active {
+  color: #13778A;
 }
 
 .st-main-header-bottom .st-main-header-right ul li a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
 }
 
@@ -553,7 +559,7 @@ a:hover {
   height: 40px;
   width: 100%;
   min-width: 200px;
-  border: 1px solid #13788a;
+  border: 1px solid #13778A;
   border-radius: 50px;
   overflow: hidden;
 }
@@ -574,7 +580,7 @@ a:hover {
   right: 0;
   border: none;
   outline: none;
-  background-color: #13788a;
+  background-color: #13778A;
   color: #fff;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -593,7 +599,7 @@ a:hover {
 }
 
 .st-main-header-bottom .st-main-header-right .st-shopping-card:hover {
-  color: #13788a;
+  color: #13778A;
 }
 
 .st-single-slider {
@@ -652,7 +658,7 @@ a:hover {
 }
 
 .st-single-slider .st-slider-content .st-hero-text .st-btn:hover {
-  background-color: #13788a;
+  background-color: #13778A;
   color: #fff;
 }
 
@@ -677,7 +683,7 @@ a:hover {
 }
 
 .st-about {
-  background-color: #f9fcfd;
+  background-color: rgba(19, 119, 138, 0.03);
 }
 
 .st-about .st-about-img {
@@ -685,7 +691,7 @@ a:hover {
 }
 
 .st-about .st-about-img svg path {
-  fill: #13788a;
+  fill: #13778A;
 }
 
 .st-about .st-about-profile {
@@ -728,7 +734,7 @@ a:hover {
 .st-about .st-about-profile .st-about-profile-middle {
   height: 80%;
   width: 1px;
-  background-color: rgba(19, 120, 138, 0.8);
+  background-color: rgba(19, 119, 138, 0.8);
   display: inline-block;
   margin: 0 20px;
 }
@@ -752,7 +758,7 @@ a:hover {
 }
 
 .st-about .st-half-width-right .st-about-bg .st-about-counter {
-  background-color: rgba(62, 169, 183, 0.8);
+  background-color: rgba(19, 119, 138, 0.8);
   min-width: 500px;
   min-height: 140px;
   position: absolute;
@@ -778,46 +784,36 @@ a:hover {
   font-size: 18px;
 }
 
-.st-service-text .btn {
-  border: 1px solid #13788a;
-  padding: 10px 15px;
-}
-
-.st-service-text .btn:hover {
-  background-color: #13788a;
-  color: #fff;
-}
-
-.st-service-text .btn:hover i {
+.st-service .st-service-text i {
   margin-left: 5px;
 }
 
-.st-service-text .btn i {
-  margin-left: 5px;
-}
-
-.st-single-service {
+.st-service .st-single-service {
   padding: 30px;
-  background-color: #f9fcfd;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  background-color: rgba(19, 119, 138, 0.03);
 }
 
-.st-single-service:hover {
-  background-color: #13788a;
+.st-service .st-single-service:hover {
+  background-color: #13778A;
   color: #fff;
 }
 
-.st-single-service:hover svg {
+.st-service .st-single-service:hover .st-section-sub-heading {
+  color: currentColor;
+}
+
+.st-service .st-single-service:hover svg {
   fill: #fff;
 }
 
-.st-single-service:hover .st-readmore-btn {
+.st-service .st-single-service:hover .st-readmore-btn {
   color: #fff;
 }
 
-.st-single-service svg {
-  fill: #13788a;
+.st-service .st-single-service svg {
+  fill: #13778A;
   margin-bottom: 25px;
 }
 
@@ -864,7 +860,7 @@ a:hover {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-color: rgba(19, 120, 138, 0.8);
+  background-color: rgba(19, 119, 138, 0.8);
   padding: 20px 15px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -892,6 +888,10 @@ a:hover {
   text-align: center;
 }
 
+.st-features .st-btn-bg:hover {
+  color: #13778A;
+}
+
 .st-product .st-section-title svg {
   left: 50%;
   position: absolute;
@@ -917,13 +917,13 @@ a:hover {
 }
 
 .st-product .st-category-items li:hover {
-  color: #13788a;
-  border-bottom: 2px solid #13788a;
+  color: #13778A;
+  border-bottom: 2px solid #13778A;
 }
 
 .st-product .st-category-items li.active {
-  color: #13788a;
-  border-bottom: 2px solid #13788a;
+  color: #13778A;
+  border-bottom: 2px solid #13778A;
 }
 
 .st-product .st-single-product:hover .st-product-top ul {
@@ -934,7 +934,7 @@ a:hover {
 }
 
 .st-product .st-single-product .st-product-top {
-  background-color: #f9fcfd;
+  background-color: rgba(19, 119, 138, 0.03);
   position: relative;
   overflow: hidden;
   height: 300px;
@@ -958,7 +958,7 @@ a:hover {
   width: 35px;
   line-height: 35px;
   display: inline-block;
-  border: 1px solid #13788a;
+  border: 1px solid #13778A;
   border-radius: 3px;
   overflow: hidden;
   margin-right: 5px;
@@ -973,7 +973,7 @@ a:hover {
 
 .st-product .st-single-product .st-product-top ul li:nth-child(2) a i {
   padding: 10px;
-  background-color: #13788a;
+  background-color: #13778A;
   margin-right: 10px;
   color: #fff;
 }
@@ -983,7 +983,7 @@ a:hover {
 }
 
 .st-product .st-single-product .st-product-top ul li:hover {
-  color: #13788a;
+  color: #13778A;
 }
 
 .st-product .st-single-product .st-product-top ul li a {
@@ -996,7 +996,7 @@ a:hover {
 }
 
 .st-product .st-single-product .st-product-bottom .st-product-price {
-  color: #13788a;
+  color: #13778A;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -1006,7 +1006,7 @@ a:hover {
 }
 
 .st-testmonial {
-  background-color: #f9fcfd;
+  background-color: rgba(19, 119, 138, 0.03);
 }
 
 .st-testmonial .st-testmonial-content {
@@ -1040,7 +1040,7 @@ a:hover {
 }
 
 .st-testmonial .st-testmonial-content .st-testmonial-user-icon svg {
-  fill: #13788a;
+  fill: #13778A;
 }
 
 .st-testmonial .st-half-width-right {
@@ -1053,7 +1053,7 @@ a:hover {
   position: absolute;
   top: 65%;
   left: 0;
-  color: #13788a;
+  color: #13778A;
 }
 
 .st-testmonial .st-half-width-right .st-testmonial-video {
@@ -1080,12 +1080,12 @@ a:hover {
   background-color: #fff;
   text-decoration: none;
   border-radius: 50%;
-  border: 10px solid rgba(19, 120, 138, 0.8);
+  border: 10px solid rgba(19, 119, 138, 0.8);
 }
 
 .st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in .st-play i {
   font-size: 30px;
-  color: #13788a;
+  color: #13778A;
 }
 
 .st-team .st-team-caresol-right {
@@ -1102,7 +1102,7 @@ a:hover {
 }
 
 .st-blog {
-  background: #f9fcfd;
+  background: rgba(19, 119, 138, 0.03);
 }
 
 .st-blog .st-section-title svg {
@@ -1112,8 +1112,24 @@ a:hover {
           transform: translateX(-50%);
 }
 
+.st-blog .st-single-blog {
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.st-blog .st-single-blog:hover {
+  -webkit-box-shadow: 0px 5px 5px 5px rgba(19, 119, 138, 0.15);
+          box-shadow: 0px 5px 5px 5px rgba(19, 119, 138, 0.15);
+}
+
 .st-blog .st-single-blog:hover .st-blog-title {
-  color: #13788a;
+  color: #13778A;
+}
+
+.st-blog .st-single-blog:hover .st-blog-img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .st-blog .st-single-blog .st-blog-top-content {
@@ -1121,6 +1137,7 @@ a:hover {
   min-height: 213px;
   height: 250px;
   width: 100%;
+  overflow: hidden;
 }
 
 .st-blog .st-single-blog .st-blog-top-content .st-blog-img {
@@ -1142,7 +1159,7 @@ a:hover {
   bottom: 15px;
   padding: 10px 15px;
   border-radius: 5px;
-  background-color: #13788a;
+  background-color: #13778A;
 }
 
 .st-blog .st-single-blog .st-blog-top-content .st-blog-post-date i {
@@ -1183,12 +1200,12 @@ a:hover {
 
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-post-user a:hover,
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-comments a:hover {
-  color: #13788a;
+  color: #13778A;
 }
 
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-post-user i,
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-comments i {
-  color: #13788a;
+  color: #13778A;
   margin-right: 5px;
   display: block;
 }
@@ -1198,7 +1215,7 @@ a:hover {
 }
 
 .st-newsletter {
-  background-color: #13788a;
+  background-color: #13778A;
 }
 
 .st-newsletter .st-newsletter-content {
@@ -1260,8 +1277,8 @@ a:hover {
 }
 
 .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-input-group .st-btn-bg:hover {
-  border: 2px solid #13788a;
-  color: #13788a;
+  border: 2px solid #13778A;
+  color: #13778A;
 }
 
 .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-heading {
@@ -1325,7 +1342,7 @@ a:hover {
 }
 
 .st-footer .st-footer-contact-list li i {
-  color: #13788a;
+  color: #13778A;
   margin-right: 20px;
 }
 
@@ -1365,7 +1382,7 @@ a:hover {
 }
 
 .st-readmore-btn {
-  color: #13788a;
+  color: #13778A;
   text-decoration: none;
   font-weight: 500;
   -webkit-transition: 0.3s;
@@ -1374,6 +1391,7 @@ a:hover {
 
 .st-readmore-btn:hover {
   margin-left: 3px;
+  color: #13778A;
 }
 
 .st-readmore-btn i {
@@ -1382,7 +1400,7 @@ a:hover {
 
 .st-btn-bg {
   color: #fff;
-  background-color: #13788a;
+  background-color: #13778A;
   padding: 10px 30px;
   border: 2px solid transparent;
   display: inline-block;
@@ -1392,12 +1410,26 @@ a:hover {
 }
 
 .st-btn-bg:hover {
-  border: 2px solid #13788a;
+  border: 2px solid #13778A;
   background-color: transparent;
 }
 
+.st-border-btn {
+  border: 1px solid #13778A;
+  padding: 10px 15px;
+}
+
+.st-border-btn:hover {
+  background-color: #13778A;
+  color: #fff;
+}
+
+.st-border-btn:hover i {
+  margin-left: 5px;
+}
+
 .st-section-title {
-  color: #13788a;
+  color: #13778A;
   font-weight: 500;
   font-size: 16px;
   position: relative;
@@ -1414,9 +1446,7 @@ a:hover {
 }
 
 .st-section-heading {
-  font-weight: 700;
   font-size: 44px;
-  color: #333333;
   margin-bottom: 15px;
 }
 
@@ -1425,7 +1455,6 @@ a:hover {
 }
 
 .st-section-sub-heading {
-  font-weight: 700;
   font-size: 18px;
   margin-bottom: 18px;
 }
@@ -1433,3 +1462,4 @@ a:hover {
 .st-sub-heading-paragraph {
   margin-bottom: 20px;
 }
+/*# sourceMappingURL=style.css.map */
