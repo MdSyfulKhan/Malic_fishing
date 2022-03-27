@@ -1,5 +1,5 @@
 .st-testmonial {
-  background-color: $wash_me;
+  background-color: $lightgray;
 
   .st-testmonial-content {
     min-height: 480px;
@@ -27,7 +27,7 @@
     }
     .st-testmonial-user-icon {
       svg {
-        fill: $alpine_landing;
+        fill: $accent;
       }
     }
   }
@@ -39,6 +39,7 @@
       position: absolute;
       top: 65%;
       left: 0;
+      color: $accent;
     }
     .st-testmonial-video {
       position: absolute;
@@ -59,10 +60,10 @@
           background-color: $white;
           text-decoration: none;
           border-radius: 50%;
-          border: 10px solid rgba(19, 120, 138, 0.8);
+          border: 10px solid rgba($accent, 0.8);
           i {
             font-size: 30px;
-            color: $alpine_landing;
+            color: $accent;
           }
         }
       }

@@ -2,7 +2,7 @@
   color: $white;
   background-color: $black;
   .st-brand {
-    a{
+    a {
       display: inline-block;
     }
   }
@@ -18,7 +18,7 @@
       color: $white;
       display: inline-block;
       margin-right: 25px;
-      &:last-child{
+      &:last-child {
         margin: 0;
       }
       a {
@@ -36,11 +36,11 @@
     li {
       display: flex;
       margin-bottom: 20px;
-      &:last-child{
+      &:last-child {
         margin: 0;
       }
       i {
-        color: $alpine_landing;
+        color: $accent;
         margin-right: 20px;
       }
     }

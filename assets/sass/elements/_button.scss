@@ -1,9 +1,9 @@
-.btn{
+.btn {
   padding: 15px 30px;
   text-decoration: none;
 }
 .st-readmore-btn {
-  color: $alpine_landing;
+  color: $accent;
   text-decoration: none;
   font-weight: 500;
   transition: 0.3s;
@@ -14,17 +14,17 @@
     margin-left: 3px;
   }
 }
-.st-btn-bg{
+.st-btn-bg {
   color: $white;
-  background-color: $alpine_landing;
+  background-color: $accent;
   padding: 10px 30px;
   border: 2px solid transparent;
   display: inline-block;
   font-weight: 500;
   border-radius: 5px;
   text-decoration: none;
-  &:hover{
-    border: 2px solid $alpine_landing;
+  &:hover {
+    border: 2px solid $accent;
     background-color: transparent;
   }
 }

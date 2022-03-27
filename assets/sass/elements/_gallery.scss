@@ -6,17 +6,17 @@
     grid-template-rows: 1fr;
     min-height: 400px;
     height: 100%;
-    .st-single-gallery{
+    .st-single-gallery {
       height: 100%;
       width: 100%;
       position: relative;
       overflow: hidden;
-      &:hover .st-gallery-textbox{
+      &:hover .st-gallery-textbox {
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
       }
-      .st-gallery-bg{
+      .st-gallery-bg {
         height: 100%;
         width: 100%;
         position: absolute;
@@ -24,7 +24,7 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
-      .st-gallery-textbox{
+      .st-gallery-textbox {
         min-height: 130px;
         max-width: 285px;
         width: 100%;
@@ -32,7 +32,7 @@
         top: 100%;
         left: 50%;
         transform: translateX(-50%);
-        background-color: rgba($aquatic_cool,0.8);
+        background-color: rgba($accent, 0.8);
         padding: 20px 15px;
         transition: 0.3s;
         text-align: center;

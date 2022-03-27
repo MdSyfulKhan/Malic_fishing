@@ -1,7 +1,12 @@
 .st-about {
-  background-color: $wash_me;
+  background-color: $lightgray;
   .st-about-img {
     margin-bottom: 20px;
+    svg {
+      path {
+        fill: $accent;
+      }
+    }
   }
   .st-about-profile {
     height: 65px;
@@ -23,7 +28,7 @@
         }
         .st-about-profile-title {
           font-size: 16px;
-          color: $steel_wool;
+          color: $secondary;
           text-transform: uppercase;
           line-height: 150%;
         }
@@ -32,7 +37,7 @@
     .st-about-profile-middle {
       height: 80%;
       width: 1px;
-      background-color: $aquatic_cool;
+      background-color: rgba($accent, 0.8);
       display: inline-block;
       margin: 0 20px;
     }
@@ -44,31 +49,31 @@
   .st-half-width-right {
     height: 100%;
     width: 50vw;
-    .st-about-bg{
+    .st-about-bg {
       position: relative;
       height: 100%;
       width: 100%;
       background-position: center right;
       background-repeat: no-repeat;
       background-size: cover;
-      .st-about-counter{
-        background-color: rgba(62, 169, 183,0.8);
+      .st-about-counter {
+        background-color: rgba(62, 169, 183, 0.8);
         min-width: 500px;
         min-height: 140px;
         position: absolute;
         left: 50%;
         top: 75%;
         transform: translateX(-50%);
-        .st-single-counter{
+        .st-single-counter {
           color: $white;
           min-width: 50%;
           padding-left: 30px;
-          .st-counter-number{
+          .st-counter-number {
             font-size: 44px;
             font-weight: 500;
             margin-bottom: 15px;
           }
-          .st-counter-text{
+          .st-counter-text {
             font-size: 18px;
           }
         }

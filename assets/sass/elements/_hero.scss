@@ -36,15 +36,15 @@
         color: $white;
       }
       .st-btn {
-        color: $carbon;
+        color: $primary;
         background-color: $white;
         padding: 15px 30px;
         display: inline-block;
         border-radius: 5px;
         font-weight: 500;
         transition: 0.3s;
-        &:hover{
-          background-color: $alpine_landing;
+        &:hover {
+          background-color: $accent;
           color: $white;
         }
       }

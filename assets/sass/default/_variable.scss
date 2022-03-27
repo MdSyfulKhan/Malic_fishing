@@ -1,18 +1,15 @@
 // Basic Color
 $white: #fff;
 $black: #000;
-$primary: #111;
-$secondary: #666;
+$primary: #333333;
+$secondary: #777777;
 $meta: #b5b5b5;
 $border: #eaeaea;
-$lightgray: #f9f9f9;
-$lightgray2: #f2f2f2;
+$lightgray: #f9fcfd;
 
-// 
-$alpine_landing: #13788A;
-$aquatic_cool: #3ea9b7;
-$blue_moon: #368b9c;
-$steel_wool: #777777;
-$carbon: #333333;
-$wash_me: #f9fcfd;
-//WASH ME AQUATIC COOL
+// Accent Color
+$accent: #13788a;
+
+// Font Variable
+$primary_font: 'Circular', sans-serif;
+$primary_secondary: 'Roboto', sans-serif;

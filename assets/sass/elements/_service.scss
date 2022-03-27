@@ -1,35 +1,35 @@
-.st-service-text{
-  .btn{
-    border: 1px solid $alpine_landing;
+.st-service-text {
+  .btn {
+    border: 1px solid $accent;
     padding: 10px 15px;
-    &:hover{
-      background-color: $alpine_landing;
+    &:hover {
+      background-color: $accent;
       color: $white;
-      i{
+      i {
         margin-left: 5px;
       }
     }
-    i{
+    i {
       margin-left: 5px;
     }
   }
 }
-.st-single-service{
+.st-single-service {
   padding: 30px;
-  background-color: $wash_me;
+  background-color: $lightgray;
   transition: 0.4s;
-  &:hover{
-    background-color: $alpine_landing;
+  &:hover {
+    background-color: $accent;
     color: $white;
-    svg{
+    svg {
       fill: $white;
     }
-    .st-readmore-btn{
+    .st-readmore-btn {
       color: $white;
     }
   }
-  svg{
-    fill: $alpine_landing;
+  svg {
+    fill: $accent;
     margin-bottom: 25px;
   }
 }
