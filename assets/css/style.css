@@ -541,11 +541,11 @@ a:hover {
 }
 
 .st-main-header-bottom .st-main-header-right ul li:hover {
-  color: #13778A;
+  color: green;
 }
 
 .st-main-header-bottom .st-main-header-right ul li.active {
-  color: #13778A;
+  color: green;
 }
 
 .st-main-header-bottom .st-main-header-right ul li a {
@@ -559,7 +559,7 @@ a:hover {
   height: 40px;
   width: 100%;
   min-width: 200px;
-  border: 1px solid #13778A;
+  border: 1px solid green;
   border-radius: 50px;
   overflow: hidden;
 }
@@ -580,7 +580,7 @@ a:hover {
   right: 0;
   border: none;
   outline: none;
-  background-color: #13778A;
+  background-color: green;
   color: #fff;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -599,7 +599,7 @@ a:hover {
 }
 
 .st-main-header-bottom .st-main-header-right .st-shopping-card:hover {
-  color: #13778A;
+  color: green;
 }
 
 .st-single-slider {
@@ -658,7 +658,7 @@ a:hover {
 }
 
 .st-single-slider .st-slider-content .st-hero-text .st-btn:hover {
-  background-color: #13778A;
+  background-color: green;
   color: #fff;
 }
 
@@ -683,15 +683,15 @@ a:hover {
 }
 
 .st-about {
-  background-color: rgba(19, 119, 138, 0.03);
+  background-color: rgba(0, 128, 0, 0.03);
 }
 
-.st-about .st-about-img {
+.st-about .st-img-icon {
   margin-bottom: 20px;
 }
 
-.st-about .st-about-img svg path {
-  fill: #13778A;
+.st-about .st-img-icon svg path {
+  fill: green;
 }
 
 .st-about .st-about-profile {
@@ -734,7 +734,7 @@ a:hover {
 .st-about .st-about-profile .st-about-profile-middle {
   height: 80%;
   width: 1px;
-  background-color: rgba(19, 119, 138, 0.8);
+  background-color: rgba(0, 128, 0, 0.8);
   display: inline-block;
   margin: 0 20px;
 }
@@ -758,7 +758,7 @@ a:hover {
 }
 
 .st-about .st-half-width-right .st-about-bg .st-about-counter {
-  background-color: rgba(19, 119, 138, 0.8);
+  background-color: rgba(0, 128, 0, 0.8);
   min-width: 500px;
   min-height: 140px;
   position: absolute;
@@ -792,11 +792,11 @@ a:hover {
   padding: 30px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background-color: rgba(19, 119, 138, 0.03);
+  background-color: rgba(0, 128, 0, 0.03);
 }
 
 .st-service .st-single-service:hover {
-  background-color: #13778A;
+  background-color: green;
   color: #fff;
 }
 
@@ -812,9 +812,12 @@ a:hover {
   color: #fff;
 }
 
-.st-service .st-single-service svg {
-  fill: #13778A;
-  margin-bottom: 25px;
+.st-img-icon {
+  margin-bottom: 20px;
+}
+
+.st-img-icon svg {
+  fill: green;
 }
 
 .st-grid-container .st-gallery-in {
@@ -860,7 +863,7 @@ a:hover {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-color: rgba(19, 119, 138, 0.8);
+  background-color: rgba(0, 128, 0, 0.8);
   padding: 20px 15px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -888,10 +891,6 @@ a:hover {
   text-align: center;
 }
 
-.st-features .st-btn-bg:hover {
-  color: #13778A;
-}
-
 .st-product .st-section-title svg {
   left: 50%;
   position: absolute;
@@ -917,13 +916,13 @@ a:hover {
 }
 
 .st-product .st-category-items li:hover {
-  color: #13778A;
-  border-bottom: 2px solid #13778A;
+  color: green;
+  border-bottom: 2px solid green;
 }
 
 .st-product .st-category-items li.active {
-  color: #13778A;
-  border-bottom: 2px solid #13778A;
+  color: green;
+  border-bottom: 2px solid green;
 }
 
 .st-product .st-single-product:hover .st-product-top ul {
@@ -934,7 +933,7 @@ a:hover {
 }
 
 .st-product .st-single-product .st-product-top {
-  background-color: rgba(19, 119, 138, 0.03);
+  background-color: rgba(0, 128, 0, 0.03);
   position: relative;
   overflow: hidden;
   height: 300px;
@@ -958,7 +957,7 @@ a:hover {
   width: 35px;
   line-height: 35px;
   display: inline-block;
-  border: 1px solid #13778A;
+  border: 1px solid green;
   border-radius: 3px;
   overflow: hidden;
   margin-right: 5px;
@@ -973,7 +972,7 @@ a:hover {
 
 .st-product .st-single-product .st-product-top ul li:nth-child(2) a i {
   padding: 10px;
-  background-color: #13778A;
+  background-color: green;
   margin-right: 10px;
   color: #fff;
 }
@@ -983,7 +982,7 @@ a:hover {
 }
 
 .st-product .st-single-product .st-product-top ul li:hover {
-  color: #13778A;
+  color: green;
 }
 
 .st-product .st-single-product .st-product-top ul li a {
@@ -996,7 +995,7 @@ a:hover {
 }
 
 .st-product .st-single-product .st-product-bottom .st-product-price {
-  color: #13778A;
+  color: green;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -1006,7 +1005,7 @@ a:hover {
 }
 
 .st-testmonial {
-  background-color: rgba(19, 119, 138, 0.03);
+  background-color: rgba(0, 128, 0, 0.03);
 }
 
 .st-testmonial .st-testmonial-content {
@@ -1040,7 +1039,7 @@ a:hover {
 }
 
 .st-testmonial .st-testmonial-content .st-testmonial-user-icon svg {
-  fill: #13778A;
+  fill: green;
 }
 
 .st-testmonial .st-half-width-right {
@@ -1053,7 +1052,7 @@ a:hover {
   position: absolute;
   top: 65%;
   left: 0;
-  color: #13778A;
+  color: green;
 }
 
 .st-testmonial .st-half-width-right .st-testmonial-video {
@@ -1080,12 +1079,12 @@ a:hover {
   background-color: #fff;
   text-decoration: none;
   border-radius: 50%;
-  border: 10px solid rgba(19, 119, 138, 0.8);
+  border: 10px solid rgba(0, 128, 0, 0.8);
 }
 
 .st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in .st-play i {
   font-size: 30px;
-  color: #13778A;
+  color: green;
 }
 
 .st-team .st-team-caresol-right {
@@ -1099,10 +1098,16 @@ a:hover {
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template: 1fr / 1fr 1fr 1fr;
   grid-gap: 15px;
+  text-align: center;
+}
+
+.st-team .st-team-caresol-right .st-name {
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .st-blog {
-  background: rgba(19, 119, 138, 0.03);
+  background: rgba(0, 128, 0, 0.03);
 }
 
 .st-blog .st-section-title svg {
@@ -1119,12 +1124,12 @@ a:hover {
 }
 
 .st-blog .st-single-blog:hover {
-  -webkit-box-shadow: 0px 5px 5px 5px rgba(19, 119, 138, 0.15);
-          box-shadow: 0px 5px 5px 5px rgba(19, 119, 138, 0.15);
+  -webkit-box-shadow: 0px 5px 5px 5px rgba(0, 128, 0, 0.15);
+          box-shadow: 0px 5px 5px 5px rgba(0, 128, 0, 0.15);
 }
 
 .st-blog .st-single-blog:hover .st-blog-title {
-  color: #13778A;
+  color: green;
 }
 
 .st-blog .st-single-blog:hover .st-blog-img {
@@ -1159,7 +1164,7 @@ a:hover {
   bottom: 15px;
   padding: 10px 15px;
   border-radius: 5px;
-  background-color: #13778A;
+  background-color: green;
 }
 
 .st-blog .st-single-blog .st-blog-top-content .st-blog-post-date i {
@@ -1200,12 +1205,12 @@ a:hover {
 
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-post-user a:hover,
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-comments a:hover {
-  color: #13778A;
+  color: green;
 }
 
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-post-user i,
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-comments i {
-  color: #13778A;
+  color: green;
   margin-right: 5px;
   display: block;
 }
@@ -1215,7 +1220,7 @@ a:hover {
 }
 
 .st-newsletter {
-  background-color: #13778A;
+  background-color: green;
 }
 
 .st-newsletter .st-newsletter-content {
@@ -1277,8 +1282,8 @@ a:hover {
 }
 
 .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-input-group .st-btn-bg:hover {
-  border: 2px solid #13778A;
-  color: #13778A;
+  border: 2px solid green;
+  color: green;
 }
 
 .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-heading {
@@ -1342,7 +1347,7 @@ a:hover {
 }
 
 .st-footer .st-footer-contact-list li i {
-  color: #13778A;
+  color: green;
   margin-right: 20px;
 }
 
@@ -1382,7 +1387,7 @@ a:hover {
 }
 
 .st-readmore-btn {
-  color: #13778A;
+  color: green;
   text-decoration: none;
   font-weight: 500;
   -webkit-transition: 0.3s;
@@ -1391,7 +1396,7 @@ a:hover {
 
 .st-readmore-btn:hover {
   margin-left: 3px;
-  color: #13778A;
+  color: green;
 }
 
 .st-readmore-btn i {
@@ -1400,7 +1405,7 @@ a:hover {
 
 .st-btn-bg {
   color: #fff;
-  background-color: #13778A;
+  background-color: green;
   padding: 10px 30px;
   border: 2px solid transparent;
   display: inline-block;
@@ -1410,17 +1415,18 @@ a:hover {
 }
 
 .st-btn-bg:hover {
-  border: 2px solid #13778A;
+  border: 2px solid green;
   background-color: transparent;
+  color: green;
 }
 
 .st-border-btn {
-  border: 1px solid #13778A;
+  border: 1px solid green;
   padding: 10px 15px;
 }
 
 .st-border-btn:hover {
-  background-color: #13778A;
+  background-color: green;
   color: #fff;
 }
 
@@ -1429,7 +1435,7 @@ a:hover {
 }
 
 .st-section-title {
-  color: #13778A;
+  color: green;
   font-weight: 500;
   font-size: 16px;
   position: relative;

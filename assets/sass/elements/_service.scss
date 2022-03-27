@@ -21,9 +21,11 @@
         color: $white;
       }
     }
-    svg {
-      fill: $accent;
-      margin-bottom: 25px;
-    }
+  }
+}
+.st-img-icon{
+  margin-bottom: 20px;
+  svg {
+    fill: $accent;
   }
 }
