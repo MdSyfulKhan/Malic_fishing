@@ -541,11 +541,11 @@ a:hover {
 }
 
 .st-main-header-bottom .st-main-header-right ul li:hover {
-  color: green;
+  color: #13788a;
 }
 
 .st-main-header-bottom .st-main-header-right ul li.active {
-  color: green;
+  color: #13788a;
 }
 
 .st-main-header-bottom .st-main-header-right ul li a {
@@ -559,7 +559,7 @@ a:hover {
   height: 40px;
   width: 100%;
   min-width: 200px;
-  border: 1px solid green;
+  border: 1px solid #13788a;
   border-radius: 50px;
   overflow: hidden;
 }
@@ -580,7 +580,7 @@ a:hover {
   right: 0;
   border: none;
   outline: none;
-  background-color: green;
+  background-color: #13788a;
   color: #fff;
   -webkit-transition: 0.15s;
   transition: 0.15s;
@@ -599,7 +599,7 @@ a:hover {
 }
 
 .st-main-header-bottom .st-main-header-right .st-shopping-card:hover {
-  color: green;
+  color: #13788a;
 }
 
 .st-single-slider {
@@ -612,7 +612,7 @@ a:hover {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 
@@ -658,7 +658,7 @@ a:hover {
 }
 
 .st-single-slider .st-slider-content .st-hero-text .st-btn:hover {
-  background-color: green;
+  background-color: #13788a;
   color: #fff;
 }
 
@@ -683,7 +683,7 @@ a:hover {
 }
 
 .st-about {
-  background-color: rgba(0, 128, 0, 0.03);
+  background-color: rgba(19, 120, 138, 0.03);
 }
 
 .st-about .st-img-icon {
@@ -691,7 +691,7 @@ a:hover {
 }
 
 .st-about .st-img-icon svg path {
-  fill: green;
+  fill: #13788a;
 }
 
 .st-about .st-about-profile {
@@ -734,7 +734,7 @@ a:hover {
 .st-about .st-about-profile .st-about-profile-middle {
   height: 80%;
   width: 1px;
-  background-color: rgba(0, 128, 0, 0.8);
+  background-color: rgba(19, 120, 138, 0.8);
   display: inline-block;
   margin: 0 20px;
 }
@@ -758,7 +758,7 @@ a:hover {
 }
 
 .st-about .st-half-width-right .st-about-bg .st-about-counter {
-  background-color: rgba(0, 128, 0, 0.8);
+  background-color: rgba(19, 120, 138, 0.8);
   min-width: 500px;
   min-height: 140px;
   position: absolute;
@@ -792,11 +792,11 @@ a:hover {
   padding: 30px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background-color: rgba(0, 128, 0, 0.03);
+  background-color: rgba(19, 120, 138, 0.03);
 }
 
 .st-service .st-single-service:hover {
-  background-color: green;
+  background-color: #13788a;
   color: #fff;
 }
 
@@ -817,7 +817,7 @@ a:hover {
 }
 
 .st-img-icon svg {
-  fill: green;
+  fill: #13788a;
 }
 
 .st-grid-container .st-gallery-in {
@@ -863,7 +863,7 @@ a:hover {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-color: rgba(0, 128, 0, 0.8);
+  background-color: rgba(19, 120, 138, 0.8);
   padding: 20px 15px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -916,13 +916,13 @@ a:hover {
 }
 
 .st-product .st-category-items li:hover {
-  color: green;
-  border-bottom: 2px solid green;
+  color: #13788a;
+  border-bottom: 2px solid #13788a;
 }
 
 .st-product .st-category-items li.active {
-  color: green;
-  border-bottom: 2px solid green;
+  color: #13788a;
+  border-bottom: 2px solid #13788a;
 }
 
 .st-product .st-single-product:hover .st-product-top ul {
@@ -933,7 +933,7 @@ a:hover {
 }
 
 .st-product .st-single-product .st-product-top {
-  background-color: rgba(0, 128, 0, 0.03);
+  background-color: rgba(19, 120, 138, 0.03);
   position: relative;
   overflow: hidden;
   height: 300px;
@@ -957,7 +957,7 @@ a:hover {
   width: 35px;
   line-height: 35px;
   display: inline-block;
-  border: 1px solid green;
+  border: 1px solid #13788a;
   border-radius: 3px;
   overflow: hidden;
   margin-right: 5px;
@@ -972,7 +972,7 @@ a:hover {
 
 .st-product .st-single-product .st-product-top ul li:nth-child(2) a i {
   padding: 10px;
-  background-color: green;
+  background-color: #13788a;
   margin-right: 10px;
   color: #fff;
 }
@@ -982,7 +982,7 @@ a:hover {
 }
 
 .st-product .st-single-product .st-product-top ul li:hover {
-  color: green;
+  color: #13788a;
 }
 
 .st-product .st-single-product .st-product-top ul li a {
@@ -992,10 +992,11 @@ a:hover {
 
 .st-product .st-single-product .st-product-bottom .st-product-name {
   margin-bottom: 5px;
+  font-size: 16px;
 }
 
 .st-product .st-single-product .st-product-bottom .st-product-price {
-  color: green;
+  color: #13788a;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -1005,7 +1006,7 @@ a:hover {
 }
 
 .st-testmonial {
-  background-color: rgba(0, 128, 0, 0.03);
+  background-color: rgba(19, 120, 138, 0.03);
 }
 
 .st-testmonial .st-testmonial-content {
@@ -1039,7 +1040,7 @@ a:hover {
 }
 
 .st-testmonial .st-testmonial-content .st-testmonial-user-icon svg {
-  fill: green;
+  fill: #13788a;
 }
 
 .st-testmonial .st-half-width-right {
@@ -1052,7 +1053,7 @@ a:hover {
   position: absolute;
   top: 65%;
   left: 0;
-  color: green;
+  color: #13788a;
 }
 
 .st-testmonial .st-half-width-right .st-testmonial-video {
@@ -1079,35 +1080,22 @@ a:hover {
   background-color: #fff;
   text-decoration: none;
   border-radius: 50%;
-  border: 10px solid rgba(0, 128, 0, 0.8);
+  border: 10px solid rgba(19, 120, 138, 0.8);
 }
 
 .st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in .st-play i {
   font-size: 30px;
-  color: green;
+  color: #13788a;
 }
 
-.st-team .st-team-caresol-right {
-  width: calc(61vw + 3px);
-}
-
-.st-team .st-team-caresol-right .st-slider-wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 1fr;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template: 1fr / 1fr 1fr 1fr;
-  grid-gap: 15px;
-  text-align: center;
-}
-
-.st-team .st-team-caresol-right .st-name {
-  font-size: 22px;
-  font-weight: 700;
+.st-team .st-team-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .st-blog {
-  background: rgba(0, 128, 0, 0.03);
+  background: rgba(19, 120, 138, 0.03);
 }
 
 .st-blog .st-section-title svg {
@@ -1124,12 +1112,12 @@ a:hover {
 }
 
 .st-blog .st-single-blog:hover {
-  -webkit-box-shadow: 0px 5px 5px 5px rgba(0, 128, 0, 0.15);
-          box-shadow: 0px 5px 5px 5px rgba(0, 128, 0, 0.15);
+  -webkit-box-shadow: 0px 5px 5px 5px rgba(19, 120, 138, 0.15);
+          box-shadow: 0px 5px 5px 5px rgba(19, 120, 138, 0.15);
 }
 
 .st-blog .st-single-blog:hover .st-blog-title {
-  color: green;
+  color: #13788a;
 }
 
 .st-blog .st-single-blog:hover .st-blog-img {
@@ -1164,7 +1152,7 @@ a:hover {
   bottom: 15px;
   padding: 10px 15px;
   border-radius: 5px;
-  background-color: green;
+  background-color: #13788a;
 }
 
 .st-blog .st-single-blog .st-blog-top-content .st-blog-post-date i {
@@ -1188,10 +1176,6 @@ a:hover {
   text-decoration: none;
 }
 
-.st-blog .st-single-blog .st-blog-bottom-content .st-blog-text {
-  margin: 10px;
-}
-
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-post-user,
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-comments {
   margin-right: 30px;
@@ -1205,12 +1189,12 @@ a:hover {
 
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-post-user a:hover,
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-comments a:hover {
-  color: green;
+  color: #13788a;
 }
 
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-post-user i,
 .st-blog .st-single-blog .st-blog-bottom-content .st-blog-text .st-blog-comments i {
-  color: green;
+  color: #13788a;
   margin-right: 5px;
   display: block;
 }
@@ -1220,7 +1204,7 @@ a:hover {
 }
 
 .st-newsletter {
-  background-color: green;
+  background-color: #13788a;
 }
 
 .st-newsletter .st-newsletter-content {
@@ -1282,8 +1266,8 @@ a:hover {
 }
 
 .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-input-group .st-btn-bg:hover {
-  border: 2px solid green;
-  color: green;
+  border: 2px solid #13788a;
+  color: #13788a;
 }
 
 .st-newsletter .st-newsletter-content .st-newsletter-right .st-newsletter-heading {
@@ -1347,7 +1331,7 @@ a:hover {
 }
 
 .st-footer .st-footer-contact-list li i {
-  color: green;
+  color: #13788a;
   margin-right: 20px;
 }
 
@@ -1387,7 +1371,7 @@ a:hover {
 }
 
 .st-readmore-btn {
-  color: green;
+  color: #13788a;
   text-decoration: none;
   font-weight: 500;
   -webkit-transition: 0.3s;
@@ -1396,7 +1380,7 @@ a:hover {
 
 .st-readmore-btn:hover {
   margin-left: 3px;
-  color: green;
+  color: #13788a;
 }
 
 .st-readmore-btn i {
@@ -1405,7 +1389,7 @@ a:hover {
 
 .st-btn-bg {
   color: #fff;
-  background-color: green;
+  background-color: #13788a;
   padding: 10px 30px;
   border: 2px solid transparent;
   display: inline-block;
@@ -1415,18 +1399,18 @@ a:hover {
 }
 
 .st-btn-bg:hover {
-  border: 2px solid green;
+  border: 2px solid #13788a;
   background-color: transparent;
-  color: green;
+  color: #13788a;
 }
 
 .st-border-btn {
-  border: 1px solid green;
+  border: 1px solid #13788a;
   padding: 10px 15px;
 }
 
 .st-border-btn:hover {
-  background-color: green;
+  background-color: #13788a;
   color: #fff;
 }
 
@@ -1435,7 +1419,7 @@ a:hover {
 }
 
 .st-section-title {
-  color: green;
+  color: #13788a;
   font-weight: 500;
   font-size: 16px;
   position: relative;
