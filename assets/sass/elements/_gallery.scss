@@ -4,11 +4,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    min-height: 400px;
-    height: 100%;
     .st-single-gallery {
       height: 100%;
-      width: 100%;
+      min-height: 400px;
+      min-width: 100%;
       position: relative;
       overflow: hidden;
       &:hover .st-gallery-textbox {

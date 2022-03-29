@@ -75,7 +75,7 @@
           &:last-child {
             margin: 0;
           }
-          &:hover {
+          &:hover,.active {
             color: $accent;
           }
           a {

@@ -662,6 +662,44 @@ a:hover {
   color: #fff;
 }
 
+.slick-slide-in {
+  width: 100%;
+  position: relative;
+}
+
+.slick-slide-in .left-arrow,
+.slick-slide-in .right-arrow {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: rgba(19, 120, 138, 0.5);
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.slick-slide-in .left-arrow:hover,
+.slick-slide-in .right-arrow:hover {
+  background-color: #13788a;
+  cursor: pointer;
+}
+
+.slick-slide-in .right-arrow {
+  right: 30px;
+}
+
+.slick-slide-in .left-arrow {
+  left: 30px;
+}
+
 .st-single-brand {
   border: 1px solid #b5b5b5;
   display: block;
@@ -827,13 +865,12 @@ a:hover {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
-  min-height: 400px;
-  height: 100%;
 }
 
 .st-grid-container .st-gallery-in .st-single-gallery {
   height: 100%;
-  width: 100%;
+  min-height: 400px;
+  min-width: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -981,7 +1018,7 @@ a:hover {
   margin: 0;
 }
 
-.st-product .st-single-product .st-product-top ul li:hover {
+.st-product .st-single-product .st-product-top ul li:hover, .st-product .st-single-product .st-product-top ul li .active {
   color: #13788a;
 }
 
@@ -1088,10 +1125,47 @@ a:hover {
   color: #13788a;
 }
 
-.st-team .st-team-slider {
+.st-team .st-single-slide {
+  width: 100%;
+  position: relative;
+}
+
+.st-team .st-single-slide:hover .st-overlay {
+  opacity: 1;
+}
+
+.st-team .st-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5));
+  opacity: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.st-team .st-overlay .st-member-info {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.st-team .st-overlay .st-member-info .st-name {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 .st-blog {
