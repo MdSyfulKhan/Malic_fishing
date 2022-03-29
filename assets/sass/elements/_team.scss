@@ -1,32 +1,50 @@
 .st-team {
-  .st-single-slide{
-    width: 100%;
-    position: relative;
-    &:hover .st-overlay{
+  width: 100%;
+  position: relative;
+  &:hover {
+    .st-overlay {
       opacity: 1;
     }
   }
-  .st-overlay{
+  .st-team-img {
+    img {
+      width: 100%;
+    }
+  }
+  .st-overlay {
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
-    background-image: linear-gradient(rgba($white,0.1), rgba($black,0.5));
+    background-image: linear-gradient(rgba($white, 0.1), rgba($black, 0.5));
     opacity: 0;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     transition: 0.3s;
-    .st-member-info{
+    .st-team-info {
       position: relative;
       z-index: 2;
       color: $white;
       margin-bottom: 20px;
-      .st-name{
+      .st-team-name {
         font-size: 22px;
         font-weight: 700;
         margin-bottom: 5px;
       }
     }
   }
+}
+.st-team-slider-wrap {
+  display: flex;
+}
+.st-team-slider-left {
+  flex: none;
+  width: 100%;
+  max-width: 420px;
+  padding-right: 30px;
+}
+.st-team-slider-right {
+  width: 61.3vw;
+  flex: none;
 }

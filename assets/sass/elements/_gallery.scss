@@ -1,53 +1,47 @@
 // gallery section start
-.st-grid-container {
-  .st-gallery-in {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    .st-single-gallery {
-      height: 100%;
-      min-height: 400px;
-      min-width: 100%;
-      position: relative;
-      overflow: hidden;
-      &:hover .st-gallery-textbox {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      .st-gallery-bg {
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .st-gallery-textbox {
-        min-height: 130px;
-        max-width: 285px;
-        width: 100%;
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: rgba($accent, 0.8);
-        padding: 20px 15px;
-        transition: 0.3s;
-        text-align: center;
-        color: $white;
-        .st-gallery-heading {
-          font-size: 22px;
-          font-weight: 700;
-          line-height: 150%;
-          color: $white;
-        }
-        .st-gallery-heading-paragraph {
-          margin: 0;
-          word-wrap: normal;
-          color: $white;
-        }
-      }
+
+.st-single-gallery {
+  height: 100%;
+  min-height: 400px;
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+  &:hover .st-gallery-textbox {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .st-gallery-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .st-gallery-textbox {
+    min-height: 130px;
+    max-width: 285px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba($accent, 0.8);
+    padding: 20px 15px;
+    transition: 0.3s;
+    text-align: center;
+    color: $white;
+    .st-gallery-heading {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 150%;
+      color: $white;
+    }
+    .st-gallery-heading-paragraph {
+      margin: 0;
+      word-wrap: normal;
+      color: $white;
     }
   }
 }

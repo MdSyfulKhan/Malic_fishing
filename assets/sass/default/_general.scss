@@ -10,7 +10,7 @@
 .st-radius-10 {
   border-radius: 10px;
 }
-.st-flex{
+.st-flex {
   display: flex;
 }
 .st-flex-v-center {
@@ -41,8 +41,24 @@
 
   &:hover {
     .st-zoom-in {
-      transform: scale(1.07)
+      transform: scale(1.07);
     }
   }
 }
 
+.st-gap-30 {
+  .slick-slide {
+    padding: 15px;
+  }
+  .slick-list {
+    margin: -15px;
+  }
+}
+.st-gap-15 {
+  .slick-slide {
+    padding: 7px;
+  }
+  .slick-list {
+    margin: -7px;
+  }
+}
