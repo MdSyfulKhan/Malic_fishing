@@ -1113,7 +1113,7 @@ a:hover {
   display: inline-block;
 }
 
-.st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in .st-play {
+.st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in .st-play-btn {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -1127,7 +1127,7 @@ a:hover {
   border: 10px solid rgba(19, 120, 138, 0.8);
 }
 
-.st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in .st-play i {
+.st-testmonial .st-half-width-right .st-testmonial-video .st-testmonial-video-in .st-play-btn i {
   font-size: 30px;
   color: #13788a;
 }
@@ -1559,3 +1559,4 @@ a:hover {
 .st-sub-heading-paragraph {
   margin-bottom: 20px;
 }
+/*# sourceMappingURL=style.css.map */
