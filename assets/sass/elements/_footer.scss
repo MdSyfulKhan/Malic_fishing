@@ -1,13 +1,13 @@
 .st-footer {
   color: $white;
   background-color: $black;
+  //first-column
   .st-brand {
     a {
       display: inline-block;
     }
   }
   .st-footer-text {
-    color: $white;
     margin-bottom: 25px;
   }
   .st-footer-social-links {
@@ -15,7 +15,6 @@
     margin: 0;
     padding: 0;
     li {
-      color: $white;
       display: inline-block;
       margin-right: 25px;
       &:last-child {
@@ -26,10 +25,11 @@
       }
     }
   }
+  //first-column
+  //
   .st-section-sub-heading {
     color: $white;
   }
-
   .st-footer-contact-list {
     margin: 0;
     padding: 0;
@@ -39,33 +39,50 @@
       &:last-child {
         margin: 0;
       }
-      i {
-        color: $accent;
-        margin-right: 20px;
+      .st-contact-details {
+        margin-top: -5px;
+        margin-left: 25px;
       }
     }
   }
-  .st-grid-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+  .st-icon {
+    color: $accent;
   }
-  .st-footer-bottom {
-    background-color: $primary;
-    height: 70px;
-    .st-card-items {
+  .st-twitter-top {
+    padding: 20px;
+    background-color: rgba($white, 0.1);
+    p {
       margin: 0;
-      padding: 0;
-      list-style: none;
-      .st-single-card-item {
-        display: inline-block;
-        margin-left: 5px;
-        height: 25px;
-        width: 35px;
-        background-color: $white;
-        padding: 5px;
-      }
+    }
+    a {
+      color: $accent;
+      text-decoration: none;
+    }
+  }
+  .st-twitter-bottom {
+    margin-top: 20px;
+    .st-text {
+      margin-left: 10px;
+    }
+  }
+}
+.st-grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.st-footer-bottom {
+  background-color: $primary;
+  height: 70px;
+  li {
+    margin-left: 5px;
+    height: 25px;
+    width: 35px;
+    background-color: $white;
+    padding: 3px;
+    &:first-child {
+      margin: 0;
     }
   }
 }

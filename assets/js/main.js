@@ -1,3 +1,7 @@
+$('.st-nav-list li').click(function(){
+  $('.st-nav-list li').removeClass('active');
+  $(this).addClass('active');
+});
 $('.slick-slide-in').slick({
   slideToShow: 1,
   slideScroll: 1,
@@ -33,6 +37,7 @@ $('.team-slider').slick({
   prevArrow: '',
   nextArrow: '',
   Infinity: true,
+  dots:true,
 });
 
 //product filtering
