@@ -50,14 +50,14 @@
   }
   .st-twitter-top {
     padding: 20px;
-    background-color: $primary;
+    background-color: #111;
     position: relative;
     &::before {
       content: "";
       position: absolute;
       height: 30px;
       width: 20px;
-      background-color: $primary;
+      background-color: inherit;
       transform: skewY(-45deg);
       bottom: -9px;
       left: 50px;
@@ -85,7 +85,7 @@
   grid-gap: 10px;
 }
 .st-footer-bottom {
-  background-color: $primary;
+  background-color: #111;
   height: 70px;
   li {
     margin-left: 5px;

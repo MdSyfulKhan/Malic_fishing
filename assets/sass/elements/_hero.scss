@@ -5,7 +5,7 @@
   &.slick-active {
     .st-hero-bg {
       transform: scale(1);
-      transition-delay: 0.7s;
+      transition-delay: 0.5s;
     }
   }
   &.slick-active {
@@ -13,17 +13,17 @@
       .st-hero-title {
         top: 0;
         opacity: 1;
-        transition-delay: 0.8s;
+        transition-delay: 1.3s;
       }
       .st-hero-sub-title {
         top: 0;
         opacity: 1;
-        transition-delay: 0.9s;
+        transition-delay: 1.4s;
       }
       .st-hero-btn-in {
         top: 0;
         opacity: 1;
-        transition-delay: 1s;
+        transition-delay: 1.5s;
       }
     }
   }
@@ -42,7 +42,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     transform: scale(1.1);
-    transition: all 2s ease;
+    transition: all 1.5s ease;
   }
   .st-slider-content {
     height: 100%;
