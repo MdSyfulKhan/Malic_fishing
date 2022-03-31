@@ -628,29 +628,29 @@ a:hover {
 .st-single-slider.slick-active .st-hero-bg {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition-delay: 0.7s;
-          transition-delay: 0.7s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 
 .st-single-slider.slick-active .st-slider-content .st-hero-title {
   top: 0;
   opacity: 1;
-  -webkit-transition-delay: 0.8s;
-          transition-delay: 0.8s;
+  -webkit-transition-delay: 1.3s;
+          transition-delay: 1.3s;
 }
 
 .st-single-slider.slick-active .st-slider-content .st-hero-sub-title {
   top: 0;
   opacity: 1;
-  -webkit-transition-delay: 0.9s;
-          transition-delay: 0.9s;
+  -webkit-transition-delay: 1.4s;
+          transition-delay: 1.4s;
 }
 
 .st-single-slider.slick-active .st-slider-content .st-hero-btn-in {
   top: 0;
   opacity: 1;
-  -webkit-transition-delay: 1s;
-          transition-delay: 1s;
+  -webkit-transition-delay: 1.5s;
+          transition-delay: 1.5s;
 }
 
 .st-single-slider .st-hero-overlay {
@@ -670,8 +670,8 @@ a:hover {
   background-size: cover;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: all 2s ease;
-  transition: all 2s ease;
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
 }
 
 .st-single-slider .st-slider-content {
@@ -1545,7 +1545,7 @@ a:hover {
 
 .st-footer .st-twitter-top {
   padding: 20px;
-  background-color: #333333;
+  background-color: #111;
   position: relative;
 }
 
@@ -1554,7 +1554,7 @@ a:hover {
   position: absolute;
   height: 30px;
   width: 20px;
-  background-color: #333333;
+  background-color: inherit;
   -webkit-transform: skewY(-45deg);
           transform: skewY(-45deg);
   bottom: -9px;
@@ -1590,7 +1590,7 @@ a:hover {
 }
 
 .st-footer-bottom {
-  background-color: #333333;
+  background-color: #111;
   height: 70px;
 }
 
