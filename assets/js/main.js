@@ -2,6 +2,7 @@ $('.st-nav-list li').click(function(){
   $('.st-nav-list li').removeClass('active');
   $(this).addClass('active');
 });
+//hero
 $('.slick-slide-in').slick({
   slideToShow: 1,
   slideScroll: 1,
