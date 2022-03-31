@@ -50,7 +50,19 @@
   }
   .st-twitter-top {
     padding: 20px;
-    background-color: rgba($white, 0.1);
+    background-color: $primary;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      height: 30px;
+      width: 20px;
+      background-color: $primary;
+      transform: skewY(-45deg);
+      bottom: -9px;
+      left: 50px;
+      border-radius: 3px;
+    }
     p {
       margin: 0;
     }
