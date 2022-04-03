@@ -1,10 +1,19 @@
-$(document).ready(function(){
+$(document).ready(function () {
   //nav
   $(".st-nav-list li").click(function () {
     $(".st-nav-list li").removeClass("active");
     $(this).addClass("active");
   });
+  $('.st-nav-list').slicknav({
+    label: "",
+    closedSymbol:	"&#9658",
+    openedSymbol:	"&#9660",
+
+  });
   //hero
+
+  //"	Character after collapsed parents..
+	
   $(".slick-slide-in").slick({
     slideToShow: 1,
     slideScroll: 1,
@@ -24,6 +33,36 @@ $(document).ready(function(){
     prevArrow: "",
     nextArrow: "",
     Infinity: true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ],
   });
   $(".gallery-slider").slick({
     slidesToShow: 5,
@@ -32,6 +71,36 @@ $(document).ready(function(){
     prevArrow: "",
     nextArrow: "",
     Infinity: true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ],
   });
   $(".team-slider").slick({
     slidesToShow: 3,
@@ -42,7 +111,7 @@ $(document).ready(function(){
     Infinity: true,
     dots: true,
   });
-  
+
   //product filtering
   // init Isotope
   var $grid = $(".st-product-filter").isotope({
@@ -58,7 +127,7 @@ $(document).ready(function(){
     $(".st-category-items li").removeClass("active");
     $(this).addClass("active");
   });
-  
+
   //product popup
   $(".p-img").magnificPopup({
     type: "image",
@@ -71,16 +140,12 @@ $(document).ready(function(){
       $(".st-video-popup-container iframe").attr("src", video);
       $(".st-video-popup").addClass("active");
     });
-    $(".st-video-popup-close, .st-video-popup-layer").on(
-      "click",
-      function (e) {
-        $(".st-video-popup").removeClass("active");
-        $("html").removeClass("overflow-hidden");
-        $(".st-video-popup-container iframe").attr("src", "about:blank");
-        e.preventDefault();
-      }
-    );
+    $(".st-video-popup-close, .st-video-popup-layer").on("click", function (e) {
+      $(".st-video-popup").removeClass("active");
+      $("html").removeClass("overflow-hidden");
+      $(".st-video-popup-container iframe").attr("src", "about:blank");
+      e.preventDefault();
+    });
   }
   modalVideo();
-
-})
+});

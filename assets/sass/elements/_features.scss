@@ -1,8 +1,18 @@
-.st-features{
-  .st-half-width-left{
+.st-features {
+  .st-half-width-left {
     height: 100%;
     width: 50vw;
     margin-left: calc(-50vw + 102.7%);
-    text-align: center; 
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .st-features {
+    .st-half-width-left {
+      height: 100%;
+      width: 100vw;
+      text-align: center;
+      margin: 0;
+    }
   }
 }

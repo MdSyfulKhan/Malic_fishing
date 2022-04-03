@@ -12,3 +12,10 @@
     width: initial;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .st-single-brand{
+    margin: 0;
+    width: 100%;
+  }
+}

@@ -60,3 +60,20 @@
     }
   }
 }
+@media only screen and (max-width: 991px) {
+  .st-flex-center{
+    display: inline;
+  }
+  .st-newsletter-left{
+    flex: none;
+  }
+  .st-newsletter-middle{
+    display: none;
+  }
+  .st-newsletter-right{
+    flex: none;
+    .st-newsletter-input-group{
+      min-width: 100%;
+    }
+  }
+}

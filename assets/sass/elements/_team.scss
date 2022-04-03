@@ -4,14 +4,13 @@
   &:hover {
     .st-overlay {
       opacity: 1;
-      .st-team-name{
+      .st-team-name {
         margin: 0;
       }
-      .st-team-designation{
+      .st-team-designation {
         margin: 0;
       }
     }
-    
   }
   .st-team-img {
     img {
@@ -34,7 +33,6 @@
       z-index: 2;
       color: $white;
       margin-bottom: 20px;
-      
     }
     .st-team-name {
       font-size: 22px;
@@ -43,7 +41,7 @@
       margin-left: -200px;
       transition: 0.3s;
     }
-    .st-team-designation{
+    .st-team-designation {
       margin-right: -200px;
       transition: 0.3s ease;
     }
@@ -61,30 +59,35 @@
 .st-team-slider-right {
   width: calc(61vw + 6px);
   flex: none;
-  .slick-dots{
+  .slick-dots {
     list-style: none;
     text-align: center;
     margin: 0;
     padding: 0;
     margin-top: 40px;
-    li{
+    li {
       display: inline-block;
       height: 10px;
       width: 10px;
       border-radius: 50%;
       background-color: rgba($accent, 0.3);
       margin-right: 20px;
-      &.slick-active{
+      &.slick-active {
         background-color: $accent;
         width: 12px;
         height: 12px;
       }
-      &:last-child{
+      &:last-child {
         margin: 0;
       }
-      button{
+      button {
         display: none;
       }
     }
   }
 }
+// @media only screen and (max-width: 600px) {
+//   .st-team-slider-right {
+//     width: 100vw;
+//   }
+// }

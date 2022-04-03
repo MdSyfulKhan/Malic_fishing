@@ -35,69 +35,79 @@
       left: 50%;
       transform: translateX(-50%);
     }
-    .st-product-top {
-      background-color: rgba($accent, 0.03);
-      position: relative;
-      overflow: hidden;
-      height: 300px;
-      ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        transition: 0.3s;
-        li {
-          height: 35px;
-          width: 35px;
-          line-height: 35px;
-          display: inline-block;
-          border: 1px solid $accent;
-          border-radius: 3px;
-          overflow: hidden;
-          margin-right: 5px;
-          background-color: $white;
-          &:nth-child(2) {
-            min-width: 150px;
-            text-align: start;
-            line-height: 0;
-            a {
-              i {
-                padding: 10px;
-                background-color: $accent;
-                margin-right: 10px;
-                color: $white;
-              }
+  }
+  .st-product-top {
+    background-color: rgba($accent, 0.03);
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: 0.3s;
+      li {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        display: inline-block;
+        border: 1px solid $accent;
+        border-radius: 3px;
+        overflow: hidden;
+        margin-right: 5px;
+        background-color: $white;
+        &:nth-child(2) {
+          min-width: 150px;
+          text-align: start;
+          line-height: 0;
+          a {
+            i {
+              padding: 10px;
+              background-color: $accent;
+              margin-right: 10px;
+              color: $white;
             }
           }
-          &:last-child {
-            margin: 0;
-          }
-          &:hover,.active {
-            color: $accent;
-          }
-          a {
-            display: block;
-            text-decoration: none;
-          }
+        }
+        &:last-child {
+          margin: 0;
+        }
+        &:hover,.active {
+          color: $accent;
+        }
+        a {
+          display: block;
+          text-decoration: none;
         }
       }
     }
+  }
     //product bottom content
-    .st-product-bottom {
-      .st-product-name {
-        margin-bottom: 5px;
-        font-size: 16px;
-      }
-      .st-product-price {
-        color: $accent;
-        font-weight: 500;
-        margin-bottom: 5px;
-      }
-      .st-product-rating {
-        color: #ffb800;
+  .st-product-bottom {
+    .st-product-name {
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+    .st-product-price {
+      color: $accent;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    .st-product-rating {
+      color: #ffb800;
+    }
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .st-product{
+    .st-category-items{
+      li{
+        padding: 0px 10px;
       }
     }
   }

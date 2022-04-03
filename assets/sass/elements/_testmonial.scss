@@ -72,3 +72,19 @@
     }
   }
 }
+@media only screen and (max-width: 600px) {
+  .st-testmonial {
+    .st-half-width-right {
+      .st-link-line {
+        display: none;
+      }
+      .st-testmonial-video {
+        height: 100%;
+        width: 100vw;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
