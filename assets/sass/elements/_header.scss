@@ -26,11 +26,13 @@
 //main header bottom
 .st-main-header-bottom {
   height: 80px;
+  background-color: #2c2c2c;
   .st-brand {
     a {
       display: inline-block;
     }
   }
+
   .st-main-header-right {
     height: 100%;
     ul {
@@ -43,7 +45,7 @@
         &:hover {
           color: $accent;
         }
-        &.active{
+        &.active {
           color: $accent;
         }
         a {
@@ -53,6 +55,8 @@
         }
       }
     }
+    //
+
     .st-search-bar {
       position: relative;
       height: 40px;
@@ -93,5 +97,15 @@
         color: $accent;
       }
     }
+  }
+}
+
+.slicknav_menu {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  /* #menu is the original menu */
+  .slicknav_menu {
+    display: block;
   }
 }

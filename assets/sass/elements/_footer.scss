@@ -98,3 +98,21 @@
     }
   }
 }
+@media only screen and (max-width: 600px) {
+  .st-brand{
+    margin-bottom: 15px;
+  }
+  .st-flex-v-center{
+    flex: none;
+  }
+  .st-flex-s-between{
+    justify-content: center;
+  }
+  .st-copyright-wrapper{
+    display: block;
+    text-align: center;
+  }
+  .st-flex{
+    display: none;
+  }
+}
