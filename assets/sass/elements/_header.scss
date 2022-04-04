@@ -26,16 +26,18 @@
 //main header bottom
 .st-main-header-bottom {
   height: 80px;
-  background-color: #2c2c2c;
+  position: relative;
   .st-brand {
     a {
       display: inline-block;
     }
   }
-
   .st-main-header-right {
     height: 100%;
-    ul {
+    .st-flex-v-center {
+      position: relative;
+    }
+    .st-nav-list {
       margin: 0;
       padding: 0;
       list-style: none;
@@ -100,12 +102,36 @@
   }
 }
 
+
 .slicknav_menu {
   display: none;
 }
-@media screen and (max-width: 768px) {
-  /* #menu is the original menu */
+@media only screen and (max-width: 991px) {
+  .st-none{
+    display: none;
+  }
+  .st-mobile-menu{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  .st-nav-list {
+    display: none;
+    color: $accent;
+  }
   .slicknav_menu {
     display: block;
+    padding: 0;
+    background-color: $primary;
+    border-radius: 5px;
+  }
+  .slicknav_nav{
+    width: 150px;
+  }
+  .st-main-header-right{
+    .st-shopping-card{
+      margin-right: 70px;
+    }
   }
 }
