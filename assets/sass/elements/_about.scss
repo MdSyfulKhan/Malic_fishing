@@ -59,8 +59,8 @@
     }
     .st-about-counter {
       background-color: rgba($accent, 0.8);
-      min-width: 500px;
-      min-height: 140px;
+      width: 500px;
+      height: 140px;
       position: absolute;
       left: 50%;
       top: 75%;
@@ -81,37 +81,21 @@
     }
   }
 }
-@media only screen and (max-width: 1200px) {
-  .st-about .st-half-width-right {
-    height: 100%;
-    width: 100%;
-    .st-about-bg{
-      height: 600px;
-      .st-about-counter{
-        min-height: 100px;
-        width: 50%;
-      }
-    }
-  }
-}
+
 @media only screen and (max-width: 992px) {
-  .st-about .st-half-width-right {
-    .st-about-bg{
-      height: 550px;
-    }
-  }
-}
-@media only screen and (max-width: 768px) {
-  .st-about .st-half-width-right {
-    .st-about-bg{
-      height: 500px;
-    }
-  }
-}
-@media only screen and (max-width: 600px) {
-  .st-about .st-half-width-right {
-    .st-about-bg{
-      height: 450px;
+  .st-about {
+    .st-half-width-right {
+      min-height: 100%;
+      min-width: 100%;
+      .st-about-bg {
+        height: 550px;
+        width: 100%;
+      }
+      .st-about-counter {
+        width: 70%;
+        height: 100px;
+        display: flex;
+      }
     }
   }
 }
