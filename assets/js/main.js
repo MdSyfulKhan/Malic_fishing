@@ -6,8 +6,7 @@ $(document).ready(function () {
   });
   $('.st-nav-list').slicknav({
     label: "",
-    closedSymbol:	"&#9658",
-    openedSymbol:	"&#9660",
+    prependTo: ".st-mobile-menu"
 
   });
   //hero

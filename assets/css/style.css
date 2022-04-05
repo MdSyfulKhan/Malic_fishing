@@ -507,7 +507,7 @@ a:hover {
   padding: 30px;
 }
 
-.st-main-header-top {
+.st-header-top {
   height: 50px;
   background-color: #2c2c2c;
   overflow: hidden;
@@ -515,28 +515,27 @@ a:hover {
   font-size: 15px;
 }
 
-.st-main-header-top .st-main-header-left > div {
+.st-header-top .st-top-header-left > div {
   margin-right: 25px;
 }
 
-.st-main-header-top .st-main-header-left > div i {
+.st-header-top .st-top-header-left > div i {
   margin-right: 5px;
 }
 
-.st-main-header-top .st-main-header-right .line {
+.st-header-top .st-top-header-right .line {
   height: 30px;
   width: 1px;
   background-color: #fff;
   margin: 0 20px;
 }
 
-.st-main-header-top .st-main-header-right a {
+.st-header-top .st-top-header-right a {
   text-decoration: none;
 }
 
 .st-main-header-bottom {
   height: 80px;
-  position: relative;
 }
 
 .st-main-header-bottom .st-brand a {
@@ -545,6 +544,7 @@ a:hover {
 
 .st-main-header-bottom .st-main-header-right {
   height: 100%;
+  position: relative;
 }
 
 .st-main-header-bottom .st-main-header-right .st-flex-v-center {
@@ -576,7 +576,7 @@ a:hover {
   font-size: 16px;
 }
 
-.st-main-header-bottom .st-main-header-right .st-search-bar {
+.st-main-header-bottom .st-search-bar {
   position: relative;
   height: 40px;
   width: 100%;
@@ -586,7 +586,7 @@ a:hover {
   overflow: hidden;
 }
 
-.st-main-header-bottom .st-main-header-right .st-search-bar input {
+.st-main-header-bottom .st-search-bar input {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -595,7 +595,7 @@ a:hover {
   padding-left: 10px;
 }
 
-.st-main-header-bottom .st-main-header-right .st-search-bar button {
+.st-main-header-bottom .st-search-bar button {
   position: absolute;
   height: 100%;
   width: 50px;
@@ -608,11 +608,11 @@ a:hover {
   transition: 0.15s;
 }
 
-.st-main-header-bottom .st-main-header-right .st-search-bar button:hover {
+.st-main-header-bottom .st-search-bar button:hover {
   opacity: 0.85;
 }
 
-.st-main-header-bottom .st-main-header-right .st-shopping-card {
+.st-main-header-bottom .st-shopping-card {
   color: #333333;
   margin-left: 20px;
   padding: 10px;
@@ -620,7 +620,7 @@ a:hover {
   transition: 0.15s;
 }
 
-.st-main-header-bottom .st-main-header-right .st-shopping-card:hover {
+.st-main-header-bottom .st-shopping-card:hover {
   color: #13788a;
 }
 
