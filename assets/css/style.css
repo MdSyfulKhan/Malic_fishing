@@ -1591,7 +1591,7 @@ a:hover {
             flex: none;
   }
   .st-newsletter-right .st-newsletter-input-group {
-    min-width: 100%;
+    width: 100%;
   }
 }
 
